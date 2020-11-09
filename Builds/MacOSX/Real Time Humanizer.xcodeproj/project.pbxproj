@@ -1,0 +1,1959 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+		916ED8D5CC6426041144E0B5 = {
+			isa = PBXBuildFile;
+			fileRef = 1FEF2514B9D1563A84BAC3FC;
+		};
+		174848027BEC1B387E3E59A4 = {
+			isa = PBXBuildFile;
+			fileRef = 20C539596B8F17D334B7BD52;
+		};
+		53A5F3976BC3C16A127D6F19 = {
+			isa = PBXBuildFile;
+			fileRef = 2DAEE75C4876D2F6A2EA0763;
+		};
+		027F7882D2BBC467F0390C77 = {
+			isa = PBXBuildFile;
+			fileRef = EBBC889D20CF50ED1DF6AC04;
+		};
+		DF8A7E704A34A234CE349224 = {
+			isa = PBXBuildFile;
+			fileRef = A543E85E8C3CDC23D8F19E8D;
+		};
+		F28294CBCEE82809161AAF8A = {
+			isa = PBXBuildFile;
+			fileRef = 38BBE7337D74D103A1723298;
+		};
+		F15A565F515C0AABF8A18DBD = {
+			isa = PBXBuildFile;
+			fileRef = 6AA9F9232EBBA5C83C5348DB;
+		};
+		84C4EA7C04BDB75CC962F729 = {
+			isa = PBXBuildFile;
+			fileRef = FAB0682E5E6F4480B4DDB9A5;
+		};
+		55C354D6200F6B4743A1E5E5 = {
+			isa = PBXBuildFile;
+			fileRef = 415FB68380192CB149E3C0E9;
+		};
+		2945E3EB85E5C06E00C523A2 = {
+			isa = PBXBuildFile;
+			fileRef = AAD053F776953BD669C5B71C;
+		};
+		AE382A009C4AB55355450684 = {
+			isa = PBXBuildFile;
+			fileRef = 094F82FDD9445F9CEA79CF9E;
+		};
+		128F27E732AB6DD0E0A7FB0C = {
+			isa = PBXBuildFile;
+			fileRef = 0495EBF19A4B3EF6A54412E7;
+		};
+		E8587D86D968CFA9E760C0EF = {
+			isa = PBXBuildFile;
+			fileRef = F84B92E428F6DB61E04413A2;
+		};
+		A54901B6ADBEEF14D179F6FC = {
+			isa = PBXBuildFile;
+			fileRef = 3EEA66196CA5309BFDDEDB3E;
+		};
+		C42799D8B7104C7D0EF7CECE = {
+			isa = PBXBuildFile;
+			fileRef = DCF85DF111C4403938FF1389;
+		};
+		480AC26FA1C67126AF09A821 = {
+			isa = PBXBuildFile;
+			fileRef = D5D6C8D64CE23600DBBFC983;
+		};
+		55048203B8E7434761F49ECD = {
+			isa = PBXBuildFile;
+			fileRef = 5A8C70BE46B9FB883A4B1527;
+		};
+		7C6DB2D1F8590D021DFF6052 = {
+			isa = PBXBuildFile;
+			fileRef = 369FDDF13FE5A852CE37C966;
+		};
+		E37E32977556FBC7E35CB256 = {
+			isa = PBXBuildFile;
+			fileRef = E933B6468C73524985C7EC28;
+		};
+		D8124A5C73C5F629462292CF = {
+			isa = PBXBuildFile;
+			fileRef = E91C495F2F5843A066265DD7;
+		};
+		28B6FE36AAE34114CF7EA5A9 = {
+			isa = PBXBuildFile;
+			fileRef = B7D0E9E4306C3AA781C6366A;
+		};
+		DFFF4E66D358AB355F340D11 = {
+			isa = PBXBuildFile;
+			fileRef = 8966625D6DF658E19FFACEF2;
+		};
+		9DB953BA8811AED3B48FC3A1 = {
+			isa = PBXBuildFile;
+			fileRef = DD7A4A7B395A1CA263B15AC7;
+		};
+		538AF369B9C0F20962C653E6 = {
+			isa = PBXBuildFile;
+			fileRef = 12519DCB348DF498D7CFA0F1;
+		};
+		F121D2AEBC926BB8FC79A6C6 = {
+			isa = PBXBuildFile;
+			fileRef = 92D3C9983A4A2A04AE34074F;
+		};
+		799D3CFC4FE1226A3BA61A43 = {
+			isa = PBXBuildFile;
+			fileRef = 0D1BF6019730CF65D18D8EB1;
+		};
+		0D8D6A5F61FA96BD951186F7 = {
+			isa = PBXBuildFile;
+			fileRef = D388B545BAD6DFE95AF74283;
+		};
+		B050ABC19B1B7BA84A90A8E8 = {
+			isa = PBXBuildFile;
+			fileRef = 90DD99DCCB02D06A86C082CF;
+		};
+		C6E9D7E0590674FE125C1EBA = {
+			isa = PBXBuildFile;
+			fileRef = 50EFAABC1374178581C80350;
+		};
+		23EA42BBE44630F7764DDF19 = {
+			isa = PBXBuildFile;
+			fileRef = 21E6FBF88818882DFBBEBABF;
+		};
+		28174B492DFB82E151C28FED = {
+			isa = PBXBuildFile;
+			fileRef = A2D85634B24DEB3C2E1ACBA0;
+		};
+		0EA8959FAE09C196BA52B9B7 = {
+			isa = PBXBuildFile;
+			fileRef = FB208DCD8582B1BECCF68901;
+		};
+		013E1BF8E07717E32D53778F = {
+			isa = PBXBuildFile;
+			fileRef = B8CF2B2F8A8A1F2DACB6228C;
+		};
+		CC42E70F235ACAC9F00A14F6 = {
+			isa = PBXBuildFile;
+			fileRef = 82AF52A19CF30FA962C0A296;
+		};
+		75E0E314A4B9E4510E427DF8 = {
+			isa = PBXBuildFile;
+			fileRef = F89FDA8DABA8C492E91C028D;
+		};
+		F0A1A652F71B2906B150CB27 = {
+			isa = PBXBuildFile;
+			fileRef = 82484EB998E5B4D05F7F151B;
+		};
+		2480E3E5D386A8E0BFFDB64A = {
+			isa = PBXBuildFile;
+			fileRef = 41BA886EDE4F5DEA6BC5F7EA;
+		};
+		0495EBF19A4B3EF6A54412E7 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = CoreMIDI.framework;
+			path = System/Library/Frameworks/CoreMIDI.framework;
+			sourceTree = SDKROOT;
+		};
+		094F82FDD9445F9CEA79CF9E = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = CoreAudioKit.framework;
+			path = System/Library/Frameworks/CoreAudioKit.framework;
+			sourceTree = SDKROOT;
+		};
+		0D1BF6019730CF65D18D8EB1 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "include_juce_audio_plugin_client_Standalone.cpp";
+			path = "../../JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		0D69F4A6B330F4DA91328D7C = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_audio_plugin_client";
+			path = "/Users/Geckl/JUCE/modules/juce_audio_plugin_client";
+			sourceTree = "<absolute>";
+		};
+		12519DCB348DF498D7CFA0F1 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_audio_plugin_client_AU_1.mm";
+			path = "../../JuceLibraryCode/include_juce_audio_plugin_client_AU_1.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		1FEF2514B9D1563A84BAC3FC = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.cfbundle;
+			includeInIndex = 0;
+			path = "Real Time Humanizer.vst3";
+			sourceTree = "BUILT_PRODUCTS_DIR";
+		};
+		20C539596B8F17D334B7BD52 = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.cfbundle;
+			includeInIndex = 0;
+			path = "Real Time Humanizer.component";
+			sourceTree = "BUILT_PRODUCTS_DIR";
+		};
+		21E6FBF88818882DFBBEBABF = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_audio_processors.mm";
+			path = "../../JuceLibraryCode/include_juce_audio_processors.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		23D1C9F749A55D36A6458A51 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_graphics";
+			path = "/Users/Geckl/JUCE/modules/juce_graphics";
+			sourceTree = "<absolute>";
+		};
+		2DAEE75C4876D2F6A2EA0763 = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.application;
+			includeInIndex = 0;
+			path = "Real Time Humanizer.app";
+			sourceTree = "BUILT_PRODUCTS_DIR";
+		};
+		31DC69E5BFA12B499F43FEFB = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_audio_utils";
+			path = "/Users/Geckl/JUCE/modules/juce_audio_utils";
+			sourceTree = "<absolute>";
+		};
+		369FDDF13FE5A852CE37C966 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = PluginProcessor.cpp;
+			path = ../../Source/PluginProcessor.cpp;
+			sourceTree = "SOURCE_ROOT";
+		};
+		38BBE7337D74D103A1723298 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = Accelerate.framework;
+			path = System/Library/Frameworks/Accelerate.framework;
+			sourceTree = SDKROOT;
+		};
+		3EEA66196CA5309BFDDEDB3E = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = IOKit.framework;
+			path = System/Library/Frameworks/IOKit.framework;
+			sourceTree = SDKROOT;
+		};
+		415FB68380192CB149E3C0E9 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = Cocoa.framework;
+			path = System/Library/Frameworks/Cocoa.framework;
+			sourceTree = SDKROOT;
+		};
+		41BA886EDE4F5DEA6BC5F7EA = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_gui_extra.mm";
+			path = "../../JuceLibraryCode/include_juce_gui_extra.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		50EFAABC1374178581C80350 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "include_juce_audio_plugin_client_VST3.cpp";
+			path = "../../JuceLibraryCode/include_juce_audio_plugin_client_VST3.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		5A8C70BE46B9FB883A4B1527 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file.nib;
+			name = RecentFilesMenuTemplate.nib;
+			path = RecentFilesMenuTemplate.nib;
+			sourceTree = "SOURCE_ROOT";
+		};
+		5F9C2ECADDCC6B0A2743EBE6 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_gui_extra";
+			path = "/Users/Geckl/JUCE/modules/juce_gui_extra";
+			sourceTree = "<absolute>";
+		};
+		607AE14CA86D102C7E752592 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = JucePluginDefines.h;
+			path = ../../JuceLibraryCode/JucePluginDefines.h;
+			sourceTree = "SOURCE_ROOT";
+		};
+		6A53026741AC1C0D8F0CE732 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_gui_basics";
+			path = "/Users/Geckl/JUCE/modules/juce_gui_basics";
+			sourceTree = "<absolute>";
+		};
+		6AA9F9232EBBA5C83C5348DB = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = AudioToolbox.framework;
+			path = System/Library/Frameworks/AudioToolbox.framework;
+			sourceTree = SDKROOT;
+		};
+		7DB0D793CAC1DE5606D9C414 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_events";
+			path = "/Users/Geckl/JUCE/modules/juce_events";
+			sourceTree = "<absolute>";
+		};
+		82484EB998E5B4D05F7F151B = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_gui_basics.mm";
+			path = "../../JuceLibraryCode/include_juce_gui_basics.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		82AF52A19CF30FA962C0A296 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_events.mm";
+			path = "../../JuceLibraryCode/include_juce_events.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		845272B76B9E8ED82D53BF30 = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.xml;
+			name = "Info-Standalone_Plugin.plist";
+			path = "Info-Standalone_Plugin.plist";
+			sourceTree = "SOURCE_ROOT";
+		};
+		8966625D6DF658E19FFACEF2 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_audio_formats.mm";
+			path = "../../JuceLibraryCode/include_juce_audio_formats.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		901341DA33E5613AF5749555 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = JuceHeader.h;
+			path = ../../JuceLibraryCode/JuceHeader.h;
+			sourceTree = "SOURCE_ROOT";
+		};
+		90DD99DCCB02D06A86C082CF = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_audio_plugin_client_VST_utils.mm";
+			path = "../../JuceLibraryCode/include_juce_audio_plugin_client_VST_utils.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		92D3C9983A4A2A04AE34074F = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_audio_plugin_client_AU_2.mm";
+			path = "../../JuceLibraryCode/include_juce_audio_plugin_client_AU_2.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		9860EC53125EE24BF124F18E = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_audio_formats";
+			path = "/Users/Geckl/JUCE/modules/juce_audio_formats";
+			sourceTree = "<absolute>";
+		};
+		9BBCE54F5C7D98E915A92ADA = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_audio_devices";
+			path = "/Users/Geckl/JUCE/modules/juce_audio_devices";
+			sourceTree = "<absolute>";
+		};
+		A2D85634B24DEB3C2E1ACBA0 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_audio_utils.mm";
+			path = "../../JuceLibraryCode/include_juce_audio_utils.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		A543E85E8C3CDC23D8F19E8D = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = AudioUnit.framework;
+			path = System/Library/Frameworks/AudioUnit.framework;
+			sourceTree = SDKROOT;
+		};
+		A9071D52AC917456D29B4F5B = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_core";
+			path = "/Users/Geckl/JUCE/modules/juce_core";
+			sourceTree = "<absolute>";
+		};
+		AAD053F776953BD669C5B71C = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = CoreAudio.framework;
+			path = System/Library/Frameworks/CoreAudio.framework;
+			sourceTree = SDKROOT;
+		};
+		AE903470A0C028C73DC36A3A = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.xml;
+			name = "Info-AU.plist";
+			path = "Info-AU.plist";
+			sourceTree = "SOURCE_ROOT";
+		};
+		B7D0E9E4306C3AA781C6366A = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_audio_devices.mm";
+			path = "../../JuceLibraryCode/include_juce_audio_devices.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		B8CF2B2F8A8A1F2DACB6228C = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_data_structures.mm";
+			path = "../../JuceLibraryCode/include_juce_data_structures.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		C9FC887550EC108809BE9368 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = PluginProcessor.h;
+			path = ../../Source/PluginProcessor.h;
+			sourceTree = "SOURCE_ROOT";
+		};
+		CB6280BC5325FED43BEEF3AC = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.xml;
+			name = "Info-VST3.plist";
+			path = "Info-VST3.plist";
+			sourceTree = "SOURCE_ROOT";
+		};
+		CF4DE09BC1AD54A6411077A6 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_audio_processors";
+			path = "/Users/Geckl/JUCE/modules/juce_audio_processors";
+			sourceTree = "<absolute>";
+		};
+		D18564BF839A5D92FC58DEDD = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_data_structures";
+			path = "/Users/Geckl/JUCE/modules/juce_data_structures";
+			sourceTree = "<absolute>";
+		};
+		D388B545BAD6DFE95AF74283 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "include_juce_audio_plugin_client_utils.cpp";
+			path = "../../JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		D5D6C8D64CE23600DBBFC983 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = WebKit.framework;
+			path = System/Library/Frameworks/WebKit.framework;
+			sourceTree = SDKROOT;
+		};
+		DCF85DF111C4403938FF1389 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = QuartzCore.framework;
+			path = System/Library/Frameworks/QuartzCore.framework;
+			sourceTree = SDKROOT;
+		};
+		DD7A4A7B395A1CA263B15AC7 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file.r;
+			name = "include_juce_audio_plugin_client_AU.r";
+			path = "../../JuceLibraryCode/include_juce_audio_plugin_client_AU.r";
+			sourceTree = "SOURCE_ROOT";
+		};
+		E2E9876A6FAEF17665A3D9F4 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_audio_basics";
+			path = "/Users/Geckl/JUCE/modules/juce_audio_basics";
+			sourceTree = "<absolute>";
+		};
+		E91C495F2F5843A066265DD7 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_audio_basics.mm";
+			path = "../../JuceLibraryCode/include_juce_audio_basics.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		E933B6468C73524985C7EC28 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = PluginEditor.cpp;
+			path = ../../Source/PluginEditor.cpp;
+			sourceTree = "SOURCE_ROOT";
+		};
+		EBBC889D20CF50ED1DF6AC04 = {
+			isa = PBXFileReference;
+			explicitFileType = archive.ar;
+			includeInIndex = 0;
+			path = "libReal Time Humanizer.a";
+			sourceTree = "BUILT_PRODUCTS_DIR";
+		};
+		F72F5AFA0DA7DBF02D8B54B3 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = PluginEditor.h;
+			path = ../../Source/PluginEditor.h;
+			sourceTree = "SOURCE_ROOT";
+		};
+		F84B92E428F6DB61E04413A2 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = DiscRecording.framework;
+			path = System/Library/Frameworks/DiscRecording.framework;
+			sourceTree = SDKROOT;
+		};
+		F89FDA8DABA8C492E91C028D = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_graphics.mm";
+			path = "../../JuceLibraryCode/include_juce_graphics.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		FAB0682E5E6F4480B4DDB9A5 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = Carbon.framework;
+			path = System/Library/Frameworks/Carbon.framework;
+			sourceTree = SDKROOT;
+		};
+		FB208DCD8582B1BECCF68901 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_core.mm";
+			path = "../../JuceLibraryCode/include_juce_core.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		7B5F6816A5BD8F573201FEF0 = {
+			isa = PBXGroup;
+			children = (
+				369FDDF13FE5A852CE37C966,
+				C9FC887550EC108809BE9368,
+				E933B6468C73524985C7EC28,
+				F72F5AFA0DA7DBF02D8B54B3,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		DCA2618F5C48AFCFB48882A3 = {
+			isa = PBXGroup;
+			children = (
+				7B5F6816A5BD8F573201FEF0,
+			);
+			name = "Real Time Humanizer";
+			sourceTree = "<group>";
+		};
+		FC420D98E87F8D0B35D9BF12 = {
+			isa = PBXGroup;
+			children = (
+				E2E9876A6FAEF17665A3D9F4,
+				9BBCE54F5C7D98E915A92ADA,
+				9860EC53125EE24BF124F18E,
+				0D69F4A6B330F4DA91328D7C,
+				CF4DE09BC1AD54A6411077A6,
+				31DC69E5BFA12B499F43FEFB,
+				A9071D52AC917456D29B4F5B,
+				D18564BF839A5D92FC58DEDD,
+				7DB0D793CAC1DE5606D9C414,
+				23D1C9F749A55D36A6458A51,
+				6A53026741AC1C0D8F0CE732,
+				5F9C2ECADDCC6B0A2743EBE6,
+			);
+			name = "JUCE Modules";
+			sourceTree = "<group>";
+		};
+		83667AFC2392ECB8DA48A1D3 = {
+			isa = PBXGroup;
+			children = (
+				E91C495F2F5843A066265DD7,
+				B7D0E9E4306C3AA781C6366A,
+				8966625D6DF658E19FFACEF2,
+				DD7A4A7B395A1CA263B15AC7,
+				12519DCB348DF498D7CFA0F1,
+				92D3C9983A4A2A04AE34074F,
+				0D1BF6019730CF65D18D8EB1,
+				D388B545BAD6DFE95AF74283,
+				90DD99DCCB02D06A86C082CF,
+				50EFAABC1374178581C80350,
+				21E6FBF88818882DFBBEBABF,
+				A2D85634B24DEB3C2E1ACBA0,
+				FB208DCD8582B1BECCF68901,
+				B8CF2B2F8A8A1F2DACB6228C,
+				82AF52A19CF30FA962C0A296,
+				F89FDA8DABA8C492E91C028D,
+				82484EB998E5B4D05F7F151B,
+				41BA886EDE4F5DEA6BC5F7EA,
+				901341DA33E5613AF5749555,
+				607AE14CA86D102C7E752592,
+			);
+			name = "JUCE Library Code";
+			sourceTree = "<group>";
+		};
+		3EA4D7A1B57B1205BB7C64FE = {
+			isa = PBXGroup;
+			children = (
+				CB6280BC5325FED43BEEF3AC,
+				AE903470A0C028C73DC36A3A,
+				845272B76B9E8ED82D53BF30,
+				5A8C70BE46B9FB883A4B1527,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6D5BD2F80D1F9877B572B578 = {
+			isa = PBXGroup;
+			children = (
+				A543E85E8C3CDC23D8F19E8D,
+				38BBE7337D74D103A1723298,
+				6AA9F9232EBBA5C83C5348DB,
+				FAB0682E5E6F4480B4DDB9A5,
+				415FB68380192CB149E3C0E9,
+				AAD053F776953BD669C5B71C,
+				094F82FDD9445F9CEA79CF9E,
+				0495EBF19A4B3EF6A54412E7,
+				F84B92E428F6DB61E04413A2,
+				3EEA66196CA5309BFDDEDB3E,
+				DCF85DF111C4403938FF1389,
+				D5D6C8D64CE23600DBBFC983,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1EA5017E08AD62F5F1FD24B = {
+			isa = PBXGroup;
+			children = (
+				1FEF2514B9D1563A84BAC3FC,
+				20C539596B8F17D334B7BD52,
+				2DAEE75C4876D2F6A2EA0763,
+				EBBC889D20CF50ED1DF6AC04,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		760DBDB9D9227C9125F37A07 = {
+			isa = PBXGroup;
+			children = (
+				DCA2618F5C48AFCFB48882A3,
+				FC420D98E87F8D0B35D9BF12,
+				83667AFC2392ECB8DA48A1D3,
+				3EA4D7A1B57B1205BB7C64FE,
+				6D5BD2F80D1F9877B572B578,
+				C1EA5017E08AD62F5F1FD24B,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		C32F09E2CCDFC438B57C9021 = {
+			isa = PBXTargetDependency;
+			target = DE443AE0DF4CDFA081388E48;
+		};
+		553AAD74D994370F5D49CB16 = {
+			isa = PBXTargetDependency;
+			target = A58B7C8E49CBFCE0B78FAEB3;
+		};
+		FA238DBE12DD2D4103A25947 = {
+			isa = PBXTargetDependency;
+			target = 6215C145A1416C1EAB5E96A5;
+		};
+		F9899AEE13C6A04887F87F6E = {
+			isa = PBXTargetDependency;
+			target = EAD94E3A3DB0131D71B29CAC;
+		};
+		2B6FECF60CD9DEB9B9C8AF88 = {
+			isa = PBXTargetDependency;
+			target = EAD94E3A3DB0131D71B29CAC;
+		};
+		35B497C5AC351AEF2500FD09 = {
+			isa = PBXTargetDependency;
+			target = EAD94E3A3DB0131D71B29CAC;
+		};
+		3CC719064946C08B3E931F44 = {
+			isa = PBXTargetDependency;
+			target = EAD94E3A3DB0131D71B29CAC;
+		};
+		0A9F6A4603F1D3B26E40DD99 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E79136323E69270600746483 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		48099B4E69B1453570AA00C0 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
+				COPY_PHASE_STRIP = NO;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = /;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_DEBUG=1",
+					"DEBUG=1",
+					"JUCER_XCODE_MAC_F6D2F4CF=1",
+					"JUCE_APP_VERSION=1.0.0",
+					"JUCE_APP_VERSION_HEX=0x10000",
+					"JucePlugin_Build_VST=0",
+					"JucePlugin_Build_VST3=1",
+					"JucePlugin_Build_AU=1",
+					"JucePlugin_Build_AUv3=0",
+					"JucePlugin_Build_RTAS=0",
+					"JucePlugin_Build_AAX=0",
+					"JucePlugin_Build_Standalone=1",
+					"JucePlugin_Build_Unity=0",
+					"JUCE_DISPLAY_SPLASH_SCREEN=1",
+					"JUCE_USE_DARK_SPLASH_SCREEN=1",
+					"JUCE_PROJUCER_VERSION=0x60001",
+					"JUCE_MODULE_AVAILABLE_juce_audio_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_devices=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_formats=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_plugin_client=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_processors=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_utils=1",
+					"JUCE_MODULE_AVAILABLE_juce_core=1",
+					"JUCE_MODULE_AVAILABLE_juce_data_structures=1",
+					"JUCE_MODULE_AVAILABLE_juce_events=1",
+					"JUCE_MODULE_AVAILABLE_juce_graphics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_extra=1",
+					"JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1",
+					"JUCE_VST3_CAN_REPLACE_VST2=0",
+					"JUCE_STRICT_REFCOUNTEDPOINTER=1",
+					"JucePlugin_Enable_IAA=0",
+					"JucePlugin_Name=\\\"Real\\ Time\\ Humanizer\\\"",
+					"JucePlugin_Desc=\\\"Real\\ Time\\ Humanizer\\\"",
+					"JucePlugin_Manufacturer=\\\"Squatch\\ Sounds\\\"",
+					"JucePlugin_ManufacturerWebsite=\\\"\\\"",
+					"JucePlugin_ManufacturerEmail=\\\"\\\"",
+					"JucePlugin_ManufacturerCode=0x4d616e75",
+					"JucePlugin_PluginCode=0x5478736d",
+					"JucePlugin_IsSynth=0",
+					"JucePlugin_WantsMidiInput=1",
+					"JucePlugin_ProducesMidiOutput=1",
+					"JucePlugin_IsMidiEffect=1",
+					"JucePlugin_EditorRequiresKeyboardFocus=0",
+					"JucePlugin_Version=1.0.0",
+					"JucePlugin_VersionCode=0x10000",
+					"JucePlugin_VersionString=\\\"1.0.0\\\"",
+					"JucePlugin_VSTUniqueID=JucePlugin_PluginCode",
+					"JucePlugin_VSTCategory=kPlugCategEffect",
+					"JucePlugin_Vst3Category=\\\"Fx\\\"",
+					"JucePlugin_AUMainType='aumi'",
+					"JucePlugin_AUSubType=JucePlugin_PluginCode",
+					"JucePlugin_AUExportPrefix=RealTimeHumanizerAU",
+					"JucePlugin_AUExportPrefixQuoted=\\\"RealTimeHumanizerAU\\\"",
+					"JucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_CFBundleIdentifier=com.SquatchSounds.RealTimeHumanizer",
+					"JucePlugin_RTASCategory=0",
+					"JucePlugin_RTASManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_RTASProductId=JucePlugin_PluginCode",
+					"JucePlugin_RTASDisableBypass=0",
+					"JucePlugin_RTASDisableMultiMono=0",
+					"JucePlugin_AAXIdentifier=com.SquatchSounds.RealTimeHumanizer",
+					"JucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_AAXProductId=JucePlugin_PluginCode",
+					"JucePlugin_AAXCategory=0",
+					"JucePlugin_AAXDisableBypass=0",
+					"JucePlugin_AAXDisableMultiMono=0",
+					"JucePlugin_IAAType=0x6175726d",
+					"JucePlugin_IAASubType=JucePlugin_PluginCode",
+					"JucePlugin_IAAName=\\\"Squatch\\ Sounds:\\ Real\\ Time\\ Humanizer\\\"",
+					"JucePlugin_VSTNumMidiInputs=16",
+					"JucePlugin_VSTNumMidiOutputs=16",
+					"JUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"/Users/Geckl/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
+					"../../JuceLibraryCode",
+					"/Users/Geckl/JUCE/modules",
+					"/Users/Geckl/JUCE/modules/juce_audio_plugin_client",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Info-VST3.plist;
+				INFOPLIST_PREPROCESS = NO;
+				INSTALL_PATH = "$(HOME)/Library/Audio/Plug-Ins/VST3/";
+				LIBRARY_STYLE = Bundle;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				OTHER_LDFLAGS = "-bundle -lReal\\ Time\\ Humanizer";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SquatchSounds.RealTimeHumanizer;
+				PRODUCT_NAME = "Real Time Humanizer";
+				USE_HEADERMAP = NO;
+				WRAPPER_EXTENSION = vst3;
+			};
+			name = Debug;
+		};
+		36AF2E7B72A112F97B0CE1A8 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
+				DEAD_CODE_STRIPPING = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = /;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_NDEBUG=1",
+					"NDEBUG=1",
+					"JUCER_XCODE_MAC_F6D2F4CF=1",
+					"JUCE_APP_VERSION=1.0.0",
+					"JUCE_APP_VERSION_HEX=0x10000",
+					"JucePlugin_Build_VST=0",
+					"JucePlugin_Build_VST3=1",
+					"JucePlugin_Build_AU=1",
+					"JucePlugin_Build_AUv3=0",
+					"JucePlugin_Build_RTAS=0",
+					"JucePlugin_Build_AAX=0",
+					"JucePlugin_Build_Standalone=1",
+					"JucePlugin_Build_Unity=0",
+					"JUCE_DISPLAY_SPLASH_SCREEN=1",
+					"JUCE_USE_DARK_SPLASH_SCREEN=1",
+					"JUCE_PROJUCER_VERSION=0x60001",
+					"JUCE_MODULE_AVAILABLE_juce_audio_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_devices=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_formats=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_plugin_client=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_processors=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_utils=1",
+					"JUCE_MODULE_AVAILABLE_juce_core=1",
+					"JUCE_MODULE_AVAILABLE_juce_data_structures=1",
+					"JUCE_MODULE_AVAILABLE_juce_events=1",
+					"JUCE_MODULE_AVAILABLE_juce_graphics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_extra=1",
+					"JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1",
+					"JUCE_VST3_CAN_REPLACE_VST2=0",
+					"JUCE_STRICT_REFCOUNTEDPOINTER=1",
+					"JucePlugin_Enable_IAA=0",
+					"JucePlugin_Name=\\\"Real\\ Time\\ Humanizer\\\"",
+					"JucePlugin_Desc=\\\"Real\\ Time\\ Humanizer\\\"",
+					"JucePlugin_Manufacturer=\\\"Squatch\\ Sounds\\\"",
+					"JucePlugin_ManufacturerWebsite=\\\"\\\"",
+					"JucePlugin_ManufacturerEmail=\\\"\\\"",
+					"JucePlugin_ManufacturerCode=0x4d616e75",
+					"JucePlugin_PluginCode=0x5478736d",
+					"JucePlugin_IsSynth=0",
+					"JucePlugin_WantsMidiInput=1",
+					"JucePlugin_ProducesMidiOutput=1",
+					"JucePlugin_IsMidiEffect=1",
+					"JucePlugin_EditorRequiresKeyboardFocus=0",
+					"JucePlugin_Version=1.0.0",
+					"JucePlugin_VersionCode=0x10000",
+					"JucePlugin_VersionString=\\\"1.0.0\\\"",
+					"JucePlugin_VSTUniqueID=JucePlugin_PluginCode",
+					"JucePlugin_VSTCategory=kPlugCategEffect",
+					"JucePlugin_Vst3Category=\\\"Fx\\\"",
+					"JucePlugin_AUMainType='aumi'",
+					"JucePlugin_AUSubType=JucePlugin_PluginCode",
+					"JucePlugin_AUExportPrefix=RealTimeHumanizerAU",
+					"JucePlugin_AUExportPrefixQuoted=\\\"RealTimeHumanizerAU\\\"",
+					"JucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_CFBundleIdentifier=com.SquatchSounds.RealTimeHumanizer",
+					"JucePlugin_RTASCategory=0",
+					"JucePlugin_RTASManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_RTASProductId=JucePlugin_PluginCode",
+					"JucePlugin_RTASDisableBypass=0",
+					"JucePlugin_RTASDisableMultiMono=0",
+					"JucePlugin_AAXIdentifier=com.SquatchSounds.RealTimeHumanizer",
+					"JucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_AAXProductId=JucePlugin_PluginCode",
+					"JucePlugin_AAXCategory=0",
+					"JucePlugin_AAXDisableBypass=0",
+					"JucePlugin_AAXDisableMultiMono=0",
+					"JucePlugin_IAAType=0x6175726d",
+					"JucePlugin_IAASubType=JucePlugin_PluginCode",
+					"JucePlugin_IAAName=\\\"Squatch\\ Sounds:\\ Real\\ Time\\ Humanizer\\\"",
+					"JucePlugin_VSTNumMidiInputs=16",
+					"JucePlugin_VSTNumMidiOutputs=16",
+					"JUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"/Users/Geckl/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
+					"../../JuceLibraryCode",
+					"/Users/Geckl/JUCE/modules",
+					"/Users/Geckl/JUCE/modules/juce_audio_plugin_client",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Info-VST3.plist;
+				INFOPLIST_PREPROCESS = NO;
+				INSTALL_PATH = "$(HOME)/Library/Audio/Plug-Ins/VST3/";
+				LIBRARY_STYLE = Bundle;
+				LLVM_LTO = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				OTHER_LDFLAGS = "-bundle -lReal\\ Time\\ Humanizer";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SquatchSounds.RealTimeHumanizer;
+				PRODUCT_NAME = "Real Time Humanizer";
+				USE_HEADERMAP = NO;
+				WRAPPER_EXTENSION = vst3;
+			};
+			name = Release;
+		};
+		43C90CA0941E987009E9F9A6 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
+				COPY_PHASE_STRIP = NO;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = /;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_DEBUG=1",
+					"DEBUG=1",
+					"JUCER_XCODE_MAC_F6D2F4CF=1",
+					"JUCE_APP_VERSION=1.0.0",
+					"JUCE_APP_VERSION_HEX=0x10000",
+					"JucePlugin_Build_VST=0",
+					"JucePlugin_Build_VST3=1",
+					"JucePlugin_Build_AU=1",
+					"JucePlugin_Build_AUv3=0",
+					"JucePlugin_Build_RTAS=0",
+					"JucePlugin_Build_AAX=0",
+					"JucePlugin_Build_Standalone=1",
+					"JucePlugin_Build_Unity=0",
+					"JUCE_DISPLAY_SPLASH_SCREEN=1",
+					"JUCE_USE_DARK_SPLASH_SCREEN=1",
+					"JUCE_PROJUCER_VERSION=0x60001",
+					"JUCE_MODULE_AVAILABLE_juce_audio_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_devices=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_formats=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_plugin_client=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_processors=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_utils=1",
+					"JUCE_MODULE_AVAILABLE_juce_core=1",
+					"JUCE_MODULE_AVAILABLE_juce_data_structures=1",
+					"JUCE_MODULE_AVAILABLE_juce_events=1",
+					"JUCE_MODULE_AVAILABLE_juce_graphics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_extra=1",
+					"JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1",
+					"JUCE_VST3_CAN_REPLACE_VST2=0",
+					"JUCE_STRICT_REFCOUNTEDPOINTER=1",
+					"JucePlugin_Enable_IAA=0",
+					"JucePlugin_Name=\\\"Real\\ Time\\ Humanizer\\\"",
+					"JucePlugin_Desc=\\\"Real\\ Time\\ Humanizer\\\"",
+					"JucePlugin_Manufacturer=\\\"Squatch\\ Sounds\\\"",
+					"JucePlugin_ManufacturerWebsite=\\\"\\\"",
+					"JucePlugin_ManufacturerEmail=\\\"\\\"",
+					"JucePlugin_ManufacturerCode=0x4d616e75",
+					"JucePlugin_PluginCode=0x5478736d",
+					"JucePlugin_IsSynth=0",
+					"JucePlugin_WantsMidiInput=1",
+					"JucePlugin_ProducesMidiOutput=1",
+					"JucePlugin_IsMidiEffect=1",
+					"JucePlugin_EditorRequiresKeyboardFocus=0",
+					"JucePlugin_Version=1.0.0",
+					"JucePlugin_VersionCode=0x10000",
+					"JucePlugin_VersionString=\\\"1.0.0\\\"",
+					"JucePlugin_VSTUniqueID=JucePlugin_PluginCode",
+					"JucePlugin_VSTCategory=kPlugCategEffect",
+					"JucePlugin_Vst3Category=\\\"Fx\\\"",
+					"JucePlugin_AUMainType='aumi'",
+					"JucePlugin_AUSubType=JucePlugin_PluginCode",
+					"JucePlugin_AUExportPrefix=RealTimeHumanizerAU",
+					"JucePlugin_AUExportPrefixQuoted=\\\"RealTimeHumanizerAU\\\"",
+					"JucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_CFBundleIdentifier=com.SquatchSounds.RealTimeHumanizer",
+					"JucePlugin_RTASCategory=0",
+					"JucePlugin_RTASManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_RTASProductId=JucePlugin_PluginCode",
+					"JucePlugin_RTASDisableBypass=0",
+					"JucePlugin_RTASDisableMultiMono=0",
+					"JucePlugin_AAXIdentifier=com.SquatchSounds.RealTimeHumanizer",
+					"JucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_AAXProductId=JucePlugin_PluginCode",
+					"JucePlugin_AAXCategory=0",
+					"JucePlugin_AAXDisableBypass=0",
+					"JucePlugin_AAXDisableMultiMono=0",
+					"JucePlugin_IAAType=0x6175726d",
+					"JucePlugin_IAASubType=JucePlugin_PluginCode",
+					"JucePlugin_IAAName=\\\"Squatch\\ Sounds:\\ Real\\ Time\\ Humanizer\\\"",
+					"JucePlugin_VSTNumMidiInputs=16",
+					"JucePlugin_VSTNumMidiOutputs=16",
+					"JUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"/Users/Geckl/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
+					"../../JuceLibraryCode",
+					"/Users/Geckl/JUCE/modules",
+					"/Users/Geckl/JUCE/modules/juce_audio_plugin_client",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Info-AU.plist;
+				INFOPLIST_PREPROCESS = NO;
+				INSTALL_PATH = "$(HOME)/Library/Audio/Plug-Ins/Components/";
+				LIBRARY_STYLE = Bundle;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				OTHER_LDFLAGS = "-bundle -lReal\\ Time\\ Humanizer";
+				OTHER_REZFLAGS = "-d ppc_$ppc -d i386_$i386 -d ppc64_$ppc64 -d x86_64_$x86_64 -I /System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Versions/A/Headers -I \"$(DEVELOPER_DIR)/Extras/CoreAudio/AudioUnits/AUPublic/AUBase\" -I \"$(DEVELOPER_DIR)/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/AudioUnit.framework/Headers\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SquatchSounds.RealTimeHumanizer;
+				PRODUCT_NAME = "Real Time Humanizer";
+				USE_HEADERMAP = NO;
+				WRAPPER_EXTENSION = component;
+			};
+			name = Debug;
+		};
+		330C25533EE8416499C3EF9D = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
+				DEAD_CODE_STRIPPING = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = /;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_NDEBUG=1",
+					"NDEBUG=1",
+					"JUCER_XCODE_MAC_F6D2F4CF=1",
+					"JUCE_APP_VERSION=1.0.0",
+					"JUCE_APP_VERSION_HEX=0x10000",
+					"JucePlugin_Build_VST=0",
+					"JucePlugin_Build_VST3=1",
+					"JucePlugin_Build_AU=1",
+					"JucePlugin_Build_AUv3=0",
+					"JucePlugin_Build_RTAS=0",
+					"JucePlugin_Build_AAX=0",
+					"JucePlugin_Build_Standalone=1",
+					"JucePlugin_Build_Unity=0",
+					"JUCE_DISPLAY_SPLASH_SCREEN=1",
+					"JUCE_USE_DARK_SPLASH_SCREEN=1",
+					"JUCE_PROJUCER_VERSION=0x60001",
+					"JUCE_MODULE_AVAILABLE_juce_audio_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_devices=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_formats=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_plugin_client=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_processors=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_utils=1",
+					"JUCE_MODULE_AVAILABLE_juce_core=1",
+					"JUCE_MODULE_AVAILABLE_juce_data_structures=1",
+					"JUCE_MODULE_AVAILABLE_juce_events=1",
+					"JUCE_MODULE_AVAILABLE_juce_graphics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_extra=1",
+					"JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1",
+					"JUCE_VST3_CAN_REPLACE_VST2=0",
+					"JUCE_STRICT_REFCOUNTEDPOINTER=1",
+					"JucePlugin_Enable_IAA=0",
+					"JucePlugin_Name=\\\"Real\\ Time\\ Humanizer\\\"",
+					"JucePlugin_Desc=\\\"Real\\ Time\\ Humanizer\\\"",
+					"JucePlugin_Manufacturer=\\\"Squatch\\ Sounds\\\"",
+					"JucePlugin_ManufacturerWebsite=\\\"\\\"",
+					"JucePlugin_ManufacturerEmail=\\\"\\\"",
+					"JucePlugin_ManufacturerCode=0x4d616e75",
+					"JucePlugin_PluginCode=0x5478736d",
+					"JucePlugin_IsSynth=0",
+					"JucePlugin_WantsMidiInput=1",
+					"JucePlugin_ProducesMidiOutput=1",
+					"JucePlugin_IsMidiEffect=1",
+					"JucePlugin_EditorRequiresKeyboardFocus=0",
+					"JucePlugin_Version=1.0.0",
+					"JucePlugin_VersionCode=0x10000",
+					"JucePlugin_VersionString=\\\"1.0.0\\\"",
+					"JucePlugin_VSTUniqueID=JucePlugin_PluginCode",
+					"JucePlugin_VSTCategory=kPlugCategEffect",
+					"JucePlugin_Vst3Category=\\\"Fx\\\"",
+					"JucePlugin_AUMainType='aumi'",
+					"JucePlugin_AUSubType=JucePlugin_PluginCode",
+					"JucePlugin_AUExportPrefix=RealTimeHumanizerAU",
+					"JucePlugin_AUExportPrefixQuoted=\\\"RealTimeHumanizerAU\\\"",
+					"JucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_CFBundleIdentifier=com.SquatchSounds.RealTimeHumanizer",
+					"JucePlugin_RTASCategory=0",
+					"JucePlugin_RTASManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_RTASProductId=JucePlugin_PluginCode",
+					"JucePlugin_RTASDisableBypass=0",
+					"JucePlugin_RTASDisableMultiMono=0",
+					"JucePlugin_AAXIdentifier=com.SquatchSounds.RealTimeHumanizer",
+					"JucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_AAXProductId=JucePlugin_PluginCode",
+					"JucePlugin_AAXCategory=0",
+					"JucePlugin_AAXDisableBypass=0",
+					"JucePlugin_AAXDisableMultiMono=0",
+					"JucePlugin_IAAType=0x6175726d",
+					"JucePlugin_IAASubType=JucePlugin_PluginCode",
+					"JucePlugin_IAAName=\\\"Squatch\\ Sounds:\\ Real\\ Time\\ Humanizer\\\"",
+					"JucePlugin_VSTNumMidiInputs=16",
+					"JucePlugin_VSTNumMidiOutputs=16",
+					"JUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"/Users/Geckl/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
+					"../../JuceLibraryCode",
+					"/Users/Geckl/JUCE/modules",
+					"/Users/Geckl/JUCE/modules/juce_audio_plugin_client",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Info-AU.plist;
+				INFOPLIST_PREPROCESS = NO;
+				INSTALL_PATH = "$(HOME)/Library/Audio/Plug-Ins/Components/";
+				LIBRARY_STYLE = Bundle;
+				LLVM_LTO = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				OTHER_LDFLAGS = "-bundle -lReal\\ Time\\ Humanizer";
+				OTHER_REZFLAGS = "-d ppc_$ppc -d i386_$i386 -d ppc64_$ppc64 -d x86_64_$x86_64 -I /System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Versions/A/Headers -I \"$(DEVELOPER_DIR)/Extras/CoreAudio/AudioUnits/AUPublic/AUBase\" -I \"$(DEVELOPER_DIR)/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/AudioUnit.framework/Headers\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SquatchSounds.RealTimeHumanizer;
+				PRODUCT_NAME = "Real Time Humanizer";
+				USE_HEADERMAP = NO;
+				WRAPPER_EXTENSION = component;
+			};
+			name = Release;
+		};
+		1343E6E69FFAB718259EC4E9 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_DEBUG=1",
+					"DEBUG=1",
+					"JUCER_XCODE_MAC_F6D2F4CF=1",
+					"JUCE_APP_VERSION=1.0.0",
+					"JUCE_APP_VERSION_HEX=0x10000",
+					"JucePlugin_Build_VST=0",
+					"JucePlugin_Build_VST3=1",
+					"JucePlugin_Build_AU=1",
+					"JucePlugin_Build_AUv3=0",
+					"JucePlugin_Build_RTAS=0",
+					"JucePlugin_Build_AAX=0",
+					"JucePlugin_Build_Standalone=1",
+					"JucePlugin_Build_Unity=0",
+					"JUCE_DISPLAY_SPLASH_SCREEN=1",
+					"JUCE_USE_DARK_SPLASH_SCREEN=1",
+					"JUCE_PROJUCER_VERSION=0x60001",
+					"JUCE_MODULE_AVAILABLE_juce_audio_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_devices=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_formats=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_plugin_client=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_processors=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_utils=1",
+					"JUCE_MODULE_AVAILABLE_juce_core=1",
+					"JUCE_MODULE_AVAILABLE_juce_data_structures=1",
+					"JUCE_MODULE_AVAILABLE_juce_events=1",
+					"JUCE_MODULE_AVAILABLE_juce_graphics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_extra=1",
+					"JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1",
+					"JUCE_VST3_CAN_REPLACE_VST2=0",
+					"JUCE_STRICT_REFCOUNTEDPOINTER=1",
+					"JucePlugin_Enable_IAA=0",
+					"JucePlugin_Name=\\\"Real\\ Time\\ Humanizer\\\"",
+					"JucePlugin_Desc=\\\"Real\\ Time\\ Humanizer\\\"",
+					"JucePlugin_Manufacturer=\\\"Squatch\\ Sounds\\\"",
+					"JucePlugin_ManufacturerWebsite=\\\"\\\"",
+					"JucePlugin_ManufacturerEmail=\\\"\\\"",
+					"JucePlugin_ManufacturerCode=0x4d616e75",
+					"JucePlugin_PluginCode=0x5478736d",
+					"JucePlugin_IsSynth=0",
+					"JucePlugin_WantsMidiInput=1",
+					"JucePlugin_ProducesMidiOutput=1",
+					"JucePlugin_IsMidiEffect=1",
+					"JucePlugin_EditorRequiresKeyboardFocus=0",
+					"JucePlugin_Version=1.0.0",
+					"JucePlugin_VersionCode=0x10000",
+					"JucePlugin_VersionString=\\\"1.0.0\\\"",
+					"JucePlugin_VSTUniqueID=JucePlugin_PluginCode",
+					"JucePlugin_VSTCategory=kPlugCategEffect",
+					"JucePlugin_Vst3Category=\\\"Fx\\\"",
+					"JucePlugin_AUMainType='aumi'",
+					"JucePlugin_AUSubType=JucePlugin_PluginCode",
+					"JucePlugin_AUExportPrefix=RealTimeHumanizerAU",
+					"JucePlugin_AUExportPrefixQuoted=\\\"RealTimeHumanizerAU\\\"",
+					"JucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_CFBundleIdentifier=com.SquatchSounds.RealTimeHumanizer",
+					"JucePlugin_RTASCategory=0",
+					"JucePlugin_RTASManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_RTASProductId=JucePlugin_PluginCode",
+					"JucePlugin_RTASDisableBypass=0",
+					"JucePlugin_RTASDisableMultiMono=0",
+					"JucePlugin_AAXIdentifier=com.SquatchSounds.RealTimeHumanizer",
+					"JucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_AAXProductId=JucePlugin_PluginCode",
+					"JucePlugin_AAXCategory=0",
+					"JucePlugin_AAXDisableBypass=0",
+					"JucePlugin_AAXDisableMultiMono=0",
+					"JucePlugin_IAAType=0x6175726d",
+					"JucePlugin_IAASubType=JucePlugin_PluginCode",
+					"JucePlugin_IAAName=\\\"Squatch\\ Sounds:\\ Real\\ Time\\ Humanizer\\\"",
+					"JucePlugin_VSTNumMidiInputs=16",
+					"JucePlugin_VSTNumMidiOutputs=16",
+					"JUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"/Users/Geckl/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
+					"../../JuceLibraryCode",
+					"/Users/Geckl/JUCE/modules",
+					"/Users/Geckl/JUCE/modules/juce_audio_plugin_client",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Info-Standalone_Plugin.plist;
+				INFOPLIST_PREPROCESS = NO;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				OTHER_LDFLAGS = "-lReal\\ Time\\ Humanizer";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SquatchSounds.RealTimeHumanizer;
+				PRODUCT_NAME = "Real Time Humanizer";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		F30F65AEB1EAAE562C6FF17B = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
+				DEAD_CODE_STRIPPING = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_NDEBUG=1",
+					"NDEBUG=1",
+					"JUCER_XCODE_MAC_F6D2F4CF=1",
+					"JUCE_APP_VERSION=1.0.0",
+					"JUCE_APP_VERSION_HEX=0x10000",
+					"JucePlugin_Build_VST=0",
+					"JucePlugin_Build_VST3=1",
+					"JucePlugin_Build_AU=1",
+					"JucePlugin_Build_AUv3=0",
+					"JucePlugin_Build_RTAS=0",
+					"JucePlugin_Build_AAX=0",
+					"JucePlugin_Build_Standalone=1",
+					"JucePlugin_Build_Unity=0",
+					"JUCE_DISPLAY_SPLASH_SCREEN=1",
+					"JUCE_USE_DARK_SPLASH_SCREEN=1",
+					"JUCE_PROJUCER_VERSION=0x60001",
+					"JUCE_MODULE_AVAILABLE_juce_audio_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_devices=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_formats=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_plugin_client=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_processors=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_utils=1",
+					"JUCE_MODULE_AVAILABLE_juce_core=1",
+					"JUCE_MODULE_AVAILABLE_juce_data_structures=1",
+					"JUCE_MODULE_AVAILABLE_juce_events=1",
+					"JUCE_MODULE_AVAILABLE_juce_graphics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_extra=1",
+					"JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1",
+					"JUCE_VST3_CAN_REPLACE_VST2=0",
+					"JUCE_STRICT_REFCOUNTEDPOINTER=1",
+					"JucePlugin_Enable_IAA=0",
+					"JucePlugin_Name=\\\"Real\\ Time\\ Humanizer\\\"",
+					"JucePlugin_Desc=\\\"Real\\ Time\\ Humanizer\\\"",
+					"JucePlugin_Manufacturer=\\\"Squatch\\ Sounds\\\"",
+					"JucePlugin_ManufacturerWebsite=\\\"\\\"",
+					"JucePlugin_ManufacturerEmail=\\\"\\\"",
+					"JucePlugin_ManufacturerCode=0x4d616e75",
+					"JucePlugin_PluginCode=0x5478736d",
+					"JucePlugin_IsSynth=0",
+					"JucePlugin_WantsMidiInput=1",
+					"JucePlugin_ProducesMidiOutput=1",
+					"JucePlugin_IsMidiEffect=1",
+					"JucePlugin_EditorRequiresKeyboardFocus=0",
+					"JucePlugin_Version=1.0.0",
+					"JucePlugin_VersionCode=0x10000",
+					"JucePlugin_VersionString=\\\"1.0.0\\\"",
+					"JucePlugin_VSTUniqueID=JucePlugin_PluginCode",
+					"JucePlugin_VSTCategory=kPlugCategEffect",
+					"JucePlugin_Vst3Category=\\\"Fx\\\"",
+					"JucePlugin_AUMainType='aumi'",
+					"JucePlugin_AUSubType=JucePlugin_PluginCode",
+					"JucePlugin_AUExportPrefix=RealTimeHumanizerAU",
+					"JucePlugin_AUExportPrefixQuoted=\\\"RealTimeHumanizerAU\\\"",
+					"JucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_CFBundleIdentifier=com.SquatchSounds.RealTimeHumanizer",
+					"JucePlugin_RTASCategory=0",
+					"JucePlugin_RTASManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_RTASProductId=JucePlugin_PluginCode",
+					"JucePlugin_RTASDisableBypass=0",
+					"JucePlugin_RTASDisableMultiMono=0",
+					"JucePlugin_AAXIdentifier=com.SquatchSounds.RealTimeHumanizer",
+					"JucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_AAXProductId=JucePlugin_PluginCode",
+					"JucePlugin_AAXCategory=0",
+					"JucePlugin_AAXDisableBypass=0",
+					"JucePlugin_AAXDisableMultiMono=0",
+					"JucePlugin_IAAType=0x6175726d",
+					"JucePlugin_IAASubType=JucePlugin_PluginCode",
+					"JucePlugin_IAAName=\\\"Squatch\\ Sounds:\\ Real\\ Time\\ Humanizer\\\"",
+					"JucePlugin_VSTNumMidiInputs=16",
+					"JucePlugin_VSTNumMidiOutputs=16",
+					"JUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"/Users/Geckl/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
+					"../../JuceLibraryCode",
+					"/Users/Geckl/JUCE/modules",
+					"/Users/Geckl/JUCE/modules/juce_audio_plugin_client",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Info-Standalone_Plugin.plist;
+				INFOPLIST_PREPROCESS = NO;
+				LLVM_LTO = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				OTHER_LDFLAGS = "-lReal\\ Time\\ Humanizer";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SquatchSounds.RealTimeHumanizer;
+				PRODUCT_NAME = "Real Time Humanizer";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+		FAC5B06D0CEF148E9ABC427C = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_DEBUG=1",
+					"DEBUG=1",
+					"JUCER_XCODE_MAC_F6D2F4CF=1",
+					"JUCE_APP_VERSION=1.0.0",
+					"JUCE_APP_VERSION_HEX=0x10000",
+					"JucePlugin_Build_VST=0",
+					"JucePlugin_Build_VST3=1",
+					"JucePlugin_Build_AU=1",
+					"JucePlugin_Build_AUv3=0",
+					"JucePlugin_Build_RTAS=0",
+					"JucePlugin_Build_AAX=0",
+					"JucePlugin_Build_Standalone=1",
+					"JucePlugin_Build_Unity=0",
+					"JUCE_SHARED_CODE=1",
+					"JUCE_DISPLAY_SPLASH_SCREEN=1",
+					"JUCE_USE_DARK_SPLASH_SCREEN=1",
+					"JUCE_PROJUCER_VERSION=0x60001",
+					"JUCE_MODULE_AVAILABLE_juce_audio_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_devices=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_formats=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_plugin_client=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_processors=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_utils=1",
+					"JUCE_MODULE_AVAILABLE_juce_core=1",
+					"JUCE_MODULE_AVAILABLE_juce_data_structures=1",
+					"JUCE_MODULE_AVAILABLE_juce_events=1",
+					"JUCE_MODULE_AVAILABLE_juce_graphics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_extra=1",
+					"JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1",
+					"JUCE_VST3_CAN_REPLACE_VST2=0",
+					"JUCE_STRICT_REFCOUNTEDPOINTER=1",
+					"JucePlugin_Enable_IAA=0",
+					"JucePlugin_Name=\\\"Real\\ Time\\ Humanizer\\\"",
+					"JucePlugin_Desc=\\\"Real\\ Time\\ Humanizer\\\"",
+					"JucePlugin_Manufacturer=\\\"Squatch\\ Sounds\\\"",
+					"JucePlugin_ManufacturerWebsite=\\\"\\\"",
+					"JucePlugin_ManufacturerEmail=\\\"\\\"",
+					"JucePlugin_ManufacturerCode=0x4d616e75",
+					"JucePlugin_PluginCode=0x5478736d",
+					"JucePlugin_IsSynth=0",
+					"JucePlugin_WantsMidiInput=1",
+					"JucePlugin_ProducesMidiOutput=1",
+					"JucePlugin_IsMidiEffect=1",
+					"JucePlugin_EditorRequiresKeyboardFocus=0",
+					"JucePlugin_Version=1.0.0",
+					"JucePlugin_VersionCode=0x10000",
+					"JucePlugin_VersionString=\\\"1.0.0\\\"",
+					"JucePlugin_VSTUniqueID=JucePlugin_PluginCode",
+					"JucePlugin_VSTCategory=kPlugCategEffect",
+					"JucePlugin_Vst3Category=\\\"Fx\\\"",
+					"JucePlugin_AUMainType='aumi'",
+					"JucePlugin_AUSubType=JucePlugin_PluginCode",
+					"JucePlugin_AUExportPrefix=RealTimeHumanizerAU",
+					"JucePlugin_AUExportPrefixQuoted=\\\"RealTimeHumanizerAU\\\"",
+					"JucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_CFBundleIdentifier=com.SquatchSounds.RealTimeHumanizer",
+					"JucePlugin_RTASCategory=0",
+					"JucePlugin_RTASManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_RTASProductId=JucePlugin_PluginCode",
+					"JucePlugin_RTASDisableBypass=0",
+					"JucePlugin_RTASDisableMultiMono=0",
+					"JucePlugin_AAXIdentifier=com.SquatchSounds.RealTimeHumanizer",
+					"JucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_AAXProductId=JucePlugin_PluginCode",
+					"JucePlugin_AAXCategory=0",
+					"JucePlugin_AAXDisableBypass=0",
+					"JucePlugin_AAXDisableMultiMono=0",
+					"JucePlugin_IAAType=0x6175726d",
+					"JucePlugin_IAASubType=JucePlugin_PluginCode",
+					"JucePlugin_IAAName=\\\"Squatch\\ Sounds:\\ Real\\ Time\\ Humanizer\\\"",
+					"JucePlugin_VSTNumMidiInputs=16",
+					"JucePlugin_VSTNumMidiOutputs=16",
+					"JUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"/Users/Geckl/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
+					"../../JuceLibraryCode",
+					"/Users/Geckl/JUCE/modules",
+					"/Users/Geckl/JUCE/modules/juce_audio_plugin_client",
+					"$(inherited)",
+				);
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SquatchSounds.RealTimeHumanizer;
+				PRODUCT_NAME = "Real Time Humanizer";
+				SKIP_INSTALL = YES;
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		F82B317EA63DC074E7B1D9E5 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
+				DEAD_CODE_STRIPPING = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_NDEBUG=1",
+					"NDEBUG=1",
+					"JUCER_XCODE_MAC_F6D2F4CF=1",
+					"JUCE_APP_VERSION=1.0.0",
+					"JUCE_APP_VERSION_HEX=0x10000",
+					"JucePlugin_Build_VST=0",
+					"JucePlugin_Build_VST3=1",
+					"JucePlugin_Build_AU=1",
+					"JucePlugin_Build_AUv3=0",
+					"JucePlugin_Build_RTAS=0",
+					"JucePlugin_Build_AAX=0",
+					"JucePlugin_Build_Standalone=1",
+					"JucePlugin_Build_Unity=0",
+					"JUCE_SHARED_CODE=1",
+					"JUCE_DISPLAY_SPLASH_SCREEN=1",
+					"JUCE_USE_DARK_SPLASH_SCREEN=1",
+					"JUCE_PROJUCER_VERSION=0x60001",
+					"JUCE_MODULE_AVAILABLE_juce_audio_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_devices=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_formats=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_plugin_client=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_processors=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_utils=1",
+					"JUCE_MODULE_AVAILABLE_juce_core=1",
+					"JUCE_MODULE_AVAILABLE_juce_data_structures=1",
+					"JUCE_MODULE_AVAILABLE_juce_events=1",
+					"JUCE_MODULE_AVAILABLE_juce_graphics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_extra=1",
+					"JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1",
+					"JUCE_VST3_CAN_REPLACE_VST2=0",
+					"JUCE_STRICT_REFCOUNTEDPOINTER=1",
+					"JucePlugin_Enable_IAA=0",
+					"JucePlugin_Name=\\\"Real\\ Time\\ Humanizer\\\"",
+					"JucePlugin_Desc=\\\"Real\\ Time\\ Humanizer\\\"",
+					"JucePlugin_Manufacturer=\\\"Squatch\\ Sounds\\\"",
+					"JucePlugin_ManufacturerWebsite=\\\"\\\"",
+					"JucePlugin_ManufacturerEmail=\\\"\\\"",
+					"JucePlugin_ManufacturerCode=0x4d616e75",
+					"JucePlugin_PluginCode=0x5478736d",
+					"JucePlugin_IsSynth=0",
+					"JucePlugin_WantsMidiInput=1",
+					"JucePlugin_ProducesMidiOutput=1",
+					"JucePlugin_IsMidiEffect=1",
+					"JucePlugin_EditorRequiresKeyboardFocus=0",
+					"JucePlugin_Version=1.0.0",
+					"JucePlugin_VersionCode=0x10000",
+					"JucePlugin_VersionString=\\\"1.0.0\\\"",
+					"JucePlugin_VSTUniqueID=JucePlugin_PluginCode",
+					"JucePlugin_VSTCategory=kPlugCategEffect",
+					"JucePlugin_Vst3Category=\\\"Fx\\\"",
+					"JucePlugin_AUMainType='aumi'",
+					"JucePlugin_AUSubType=JucePlugin_PluginCode",
+					"JucePlugin_AUExportPrefix=RealTimeHumanizerAU",
+					"JucePlugin_AUExportPrefixQuoted=\\\"RealTimeHumanizerAU\\\"",
+					"JucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_CFBundleIdentifier=com.SquatchSounds.RealTimeHumanizer",
+					"JucePlugin_RTASCategory=0",
+					"JucePlugin_RTASManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_RTASProductId=JucePlugin_PluginCode",
+					"JucePlugin_RTASDisableBypass=0",
+					"JucePlugin_RTASDisableMultiMono=0",
+					"JucePlugin_AAXIdentifier=com.SquatchSounds.RealTimeHumanizer",
+					"JucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_AAXProductId=JucePlugin_PluginCode",
+					"JucePlugin_AAXCategory=0",
+					"JucePlugin_AAXDisableBypass=0",
+					"JucePlugin_AAXDisableMultiMono=0",
+					"JucePlugin_IAAType=0x6175726d",
+					"JucePlugin_IAASubType=JucePlugin_PluginCode",
+					"JucePlugin_IAAName=\\\"Squatch\\ Sounds:\\ Real\\ Time\\ Humanizer\\\"",
+					"JucePlugin_VSTNumMidiInputs=16",
+					"JucePlugin_VSTNumMidiOutputs=16",
+					"JUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"/Users/Geckl/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
+					"../../JuceLibraryCode",
+					"/Users/Geckl/JUCE/modules",
+					"/Users/Geckl/JUCE/modules/juce_audio_plugin_client",
+					"$(inherited)",
+				);
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				LLVM_LTO = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SquatchSounds.RealTimeHumanizer;
+				PRODUCT_NAME = "Real Time Humanizer";
+				SKIP_INSTALL = YES;
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+		467EE96FB2B5D21B99ACAA58 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = NO;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "Real Time Humanizer";
+				SDKROOT = macosx;
+				WARNING_CFLAGS = "-Wreorder";
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		093273655FF7BCFDD80075FA = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = NO;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PRODUCT_NAME = "Real Time Humanizer";
+				SDKROOT = macosx;
+				WARNING_CFLAGS = "-Wreorder";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		38D913C53D2AE65A36472541 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				467EE96FB2B5D21B99ACAA58,
+				093273655FF7BCFDD80075FA,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7F02B4B682F68914100D15B0 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A9F6A4603F1D3B26E40DD99,
+				E79136323E69270600746483,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5B53A058C84AFD8762596833 = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7F02B4B682F68914100D15B0;
+			buildPhases = ( );
+			buildRules = ( );
+			dependencies = (
+				C32F09E2CCDFC438B57C9021,
+				553AAD74D994370F5D49CB16,
+				FA238DBE12DD2D4103A25947,
+				F9899AEE13C6A04887F87F6E,
+			);
+			name = "Real Time Humanizer - All";
+			productName = "Real Time Humanizer";
+		};
+		6035A10BD924A2780B4C9024 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48099B4E69B1453570AA00C0,
+				36AF2E7B72A112F97B0CE1A8,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		06B83B068C5F7A147EF4D3B3 = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55048203B8E7434761F49ECD,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B8B4CE032474C940D451993 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6E9D7E0590674FE125C1EBA,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AFA27DE1492FDFE92904CEC = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F28294CBCEE82809161AAF8A,
+				F15A565F515C0AABF8A18DBD,
+				84C4EA7C04BDB75CC962F729,
+				55C354D6200F6B4743A1E5E5,
+				2945E3EB85E5C06E00C523A2,
+				AE382A009C4AB55355450684,
+				128F27E732AB6DD0E0A7FB0C,
+				E8587D86D968CFA9E760C0EF,
+				A54901B6ADBEEF14D179F6FC,
+				C42799D8B7104C7D0EF7CECE,
+				480AC26FA1C67126AF09A821,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE443AE0DF4CDFA081388E48 = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6035A10BD924A2780B4C9024;
+			buildPhases = (
+				06B83B068C5F7A147EF4D3B3,
+				8B8B4CE032474C940D451993,
+				7AFA27DE1492FDFE92904CEC,
+			);
+			buildRules = ( );
+			dependencies = (
+				2B6FECF60CD9DEB9B9C8AF88,
+			);
+			name = "Real Time Humanizer - VST3";
+			productName = "Real Time Humanizer";
+			productReference = 1FEF2514B9D1563A84BAC3FC;
+			productType = "com.apple.product-type.bundle";
+		};
+		686917AD41C99926611AB2C0 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43C90CA0941E987009E9F9A6,
+				330C25533EE8416499C3EF9D,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B5E8458570C39D9128888650 = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55048203B8E7434761F49ECD,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65ABDB94E3F2BA08A792FC0C = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DB953BA8811AED3B48FC3A1,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC0D4C1A82925FE2A2460383 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				538AF369B9C0F20962C653E6,
+				F121D2AEBC926BB8FC79A6C6,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEC65F206EDE2C17F00839EC = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF8A7E704A34A234CE349224,
+				F28294CBCEE82809161AAF8A,
+				F15A565F515C0AABF8A18DBD,
+				84C4EA7C04BDB75CC962F729,
+				55C354D6200F6B4743A1E5E5,
+				2945E3EB85E5C06E00C523A2,
+				AE382A009C4AB55355450684,
+				128F27E732AB6DD0E0A7FB0C,
+				E8587D86D968CFA9E760C0EF,
+				A54901B6ADBEEF14D179F6FC,
+				C42799D8B7104C7D0EF7CECE,
+				480AC26FA1C67126AF09A821,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A58B7C8E49CBFCE0B78FAEB3 = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 686917AD41C99926611AB2C0;
+			buildPhases = (
+				B5E8458570C39D9128888650,
+				65ABDB94E3F2BA08A792FC0C,
+				FC0D4C1A82925FE2A2460383,
+				BEC65F206EDE2C17F00839EC,
+			);
+			buildRules = ( );
+			dependencies = (
+				35B497C5AC351AEF2500FD09,
+			);
+			name = "Real Time Humanizer - AU";
+			productName = "Real Time Humanizer";
+			productReference = 20C539596B8F17D334B7BD52;
+			productType = "com.apple.product-type.bundle";
+		};
+		82967AA285EF8414C3CA4CAC = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1343E6E69FFAB718259EC4E9,
+				F30F65AEB1EAAE562C6FF17B,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AD4B9E8C2DD534C40A43E864 = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55048203B8E7434761F49ECD,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BA982A81EE546BF6E3FC125 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				799D3CFC4FE1226A3BA61A43,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C874265607DF2F79E1C086B0 = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F28294CBCEE82809161AAF8A,
+				F15A565F515C0AABF8A18DBD,
+				84C4EA7C04BDB75CC962F729,
+				55C354D6200F6B4743A1E5E5,
+				2945E3EB85E5C06E00C523A2,
+				AE382A009C4AB55355450684,
+				128F27E732AB6DD0E0A7FB0C,
+				E8587D86D968CFA9E760C0EF,
+				A54901B6ADBEEF14D179F6FC,
+				C42799D8B7104C7D0EF7CECE,
+				480AC26FA1C67126AF09A821,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6215C145A1416C1EAB5E96A5 = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82967AA285EF8414C3CA4CAC;
+			buildPhases = (
+				AD4B9E8C2DD534C40A43E864,
+				5BA982A81EE546BF6E3FC125,
+				C874265607DF2F79E1C086B0,
+			);
+			buildRules = ( );
+			dependencies = (
+				3CC719064946C08B3E931F44,
+			);
+			name = "Real Time Humanizer - Standalone Plugin";
+			productName = "Real Time Humanizer";
+			productReference = 2DAEE75C4876D2F6A2EA0763;
+			productType = "com.apple.product-type.application";
+		};
+		00501BB6DCFA7358A03D4547 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC5B06D0CEF148E9ABC427C,
+				F82B317EA63DC074E7B1D9E5,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6E7C53C65CDAEA2107C48BAB = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C6DB2D1F8590D021DFF6052,
+				E37E32977556FBC7E35CB256,
+				D8124A5C73C5F629462292CF,
+				28B6FE36AAE34114CF7EA5A9,
+				DFFF4E66D358AB355F340D11,
+				0D8D6A5F61FA96BD951186F7,
+				B050ABC19B1B7BA84A90A8E8,
+				23EA42BBE44630F7764DDF19,
+				28174B492DFB82E151C28FED,
+				0EA8959FAE09C196BA52B9B7,
+				013E1BF8E07717E32D53778F,
+				CC42E70F235ACAC9F00A14F6,
+				75E0E314A4B9E4510E427DF8,
+				F0A1A652F71B2906B150CB27,
+				2480E3E5D386A8E0BFFDB64A,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAD94E3A3DB0131D71B29CAC = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00501BB6DCFA7358A03D4547;
+			buildPhases = (
+				6E7C53C65CDAEA2107C48BAB,
+			);
+			buildRules = ( );
+			dependencies = ( );
+			name = "Real Time Humanizer - Shared Code";
+			productName = "Real Time Humanizer";
+			productReference = EBBC889D20CF50ED1DF6AC04;
+			productType = "com.apple.product-type.library.static";
+		};
+		A093D3CBAFB3BF18F95FE210 = {
+			isa = PBXProject;
+			buildConfigurationList = 38D913C53D2AE65A36472541;
+			attributes = { LastUpgradeCheck = 1100; ORGANIZATIONNAME = "Squatch Sounds"; TargetAttributes = { 5B53A058C84AFD8762596833 = { SystemCapabilities = {com.apple.ApplicationGroups.iOS = { enabled = 0; }; com.apple.InAppPurchase = { enabled = 0; }; com.apple.InterAppAudio = { enabled = 0; }; com.apple.Push = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; com.apple.HardenedRuntime = { enabled = 0; }; }; };DE443AE0DF4CDFA081388E48 = { SystemCapabilities = {com.apple.ApplicationGroups.iOS = { enabled = 0; }; com.apple.InAppPurchase = { enabled = 0; }; com.apple.InterAppAudio = { enabled = 0; }; com.apple.Push = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; com.apple.HardenedRuntime = { enabled = 0; }; }; };A58B7C8E49CBFCE0B78FAEB3 = { SystemCapabilities = {com.apple.ApplicationGroups.iOS = { enabled = 0; }; com.apple.InAppPurchase = { enabled = 0; }; com.apple.InterAppAudio = { enabled = 0; }; com.apple.Push = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; com.apple.HardenedRuntime = { enabled = 0; }; }; };6215C145A1416C1EAB5E96A5 = { SystemCapabilities = {com.apple.ApplicationGroups.iOS = { enabled = 0; }; com.apple.InAppPurchase = { enabled = 0; }; com.apple.InterAppAudio = { enabled = 0; }; com.apple.Push = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; com.apple.HardenedRuntime = { enabled = 0; }; }; };EAD94E3A3DB0131D71B29CAC = { SystemCapabilities = {com.apple.ApplicationGroups.iOS = { enabled = 0; }; com.apple.InAppPurchase = { enabled = 0; }; com.apple.InterAppAudio = { enabled = 0; }; com.apple.Push = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; com.apple.HardenedRuntime = { enabled = 0; }; }; }; }; };
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 760DBDB9D9227C9125F37A07;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (5B53A058C84AFD8762596833, DE443AE0DF4CDFA081388E48, A58B7C8E49CBFCE0B78FAEB3, 6215C145A1416C1EAB5E96A5, EAD94E3A3DB0131D71B29CAC);
+			knownRegions = (en, Base);
+		};
+	};
+	rootObject = A093D3CBAFB3BF18F95FE210;
+}
