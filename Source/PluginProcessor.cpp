@@ -29,14 +29,14 @@ MyFirstPluginAudioProcessor::MyFirstPluginAudioProcessor()
 {
     std::make_unique<juce::AudioParameterInt> ("velocity",            // parameterID
                                                  "Velocity",            // parameter name
-                                                 1,              // minimum value
+                                                 0,              // minimum value
                                                  100,              // maximum value
-                                                 1),             // default value
+                                                 0),             // default value
     std::make_unique<juce::AudioParameterInt> ("timing",            // parameterID
                                                  "Timing",            // parameter name
-                                                 1,              // minimum value
+                                                 0,              // minimum value
                                                  100,              // maximum value
-                                                 1),             // default value
+                                                 0),             // default value
     std::make_unique<juce::AudioParameterInt> ("beatone",            // parameterID
                                                  "Beat One",            // parameter name
                                                  -50,              // minimum value
@@ -183,6 +183,7 @@ void MyFirstPluginAudioProcessor::processBlock (juce::AudioSampleBuffer& buffer,
     
     juce::MidiBuffer processedMidi;
     int time,time2,newTime;
+    int randomVelocity, randomTiming;
     juce::MidiMessage m,n;
     float BPMInSamples= (60/currentPositionInfo.bpm)*getSampleRate();
     timing=*timingParameter;
@@ -237,22 +238,6 @@ void MyFirstPluginAudioProcessor::processBlock (juce::AudioSampleBuffer& buffer,
         
             }
             
-            /*if(currentPositionInfo.timeSigDenominator==8)
-            {
-            beat=(int((samplePPQPosition-currentPositionInfo.ppqPositionOfLastBarStart)/1.5))%(currentPositionInfo.timeSigNumerator/3);
-            }
-            
-            if(currentPositionInfo.timeSigDenominator==4)
-            {
-            beat=(int((samplePPQPosition-currentPositionInfo.ppqPositionOfLastBarStart)/3))%(currentPositionInfo.timeSigNumerator/3);
-            }
-            
-            if(currentPositionInfo.timeSigDenominator==16)
-            {
-                beat=(int((samplePPQPosition-currentPositionInfo.ppqPositionOfLastBarStart)/.75))%(currentPositionInfo.timeSigNumerator/3);
-            }*/
-            
-
         }
         
         //determine the beat in simple meter
@@ -261,13 +246,6 @@ void MyFirstPluginAudioProcessor::processBlock (juce::AudioSampleBuffer& buffer,
             numOfBeats=currentPositionInfo.timeSigNumerator;
             beat = (int((samplePPQPosition-currentPositionInfo.ppqPositionOfLastBarStart)/(4.0/currentPositionInfo.timeSigDenominator))%currentPositionInfo.timeSigNumerator);
         }
-
-
-        
-        /*else
-        {
-            z=0;
-        }*/
         
         if (m.isNoteOn())
         {
@@ -294,10 +272,18 @@ void MyFirstPluginAudioProcessor::processBlock (juce::AudioSampleBuffer& buffer,
             }
             
             //generate velocity randomization
-            int x= (rand()%(juce::uint8)velocity)-((juce::uint8)velocity/2);
+            if(velocity>0)
+            {
+                randomVelocity= (rand()%(juce::uint8)velocity)-((juce::uint8)velocity/2);
+            }
+            
+            else
+            {
+                randomVelocity=0;
+            }
             
             //add beat emphasization (z) and randomization (x)
-            juce::uint8 newVel = (juce::uint8)m.getVelocity() + x + z;
+            juce::uint8 newVel = (juce::uint8)m.getVelocity() + randomVelocity + z;
             
             //avoid negative velocity values
             if (newVel<1)
@@ -309,44 +295,66 @@ void MyFirstPluginAudioProcessor::processBlock (juce::AudioSampleBuffer& buffer,
             m = juce::MidiMessage::noteOn(m.getChannel(), m.getNoteNumber(), newVel);
             //z++;
             
+            if(timing>0)
+            {
             //randomize timing
-            int y=(((rand()%(juce::uint8)timing)-((juce::uint8)timing/2))*50)+2500;
-            newTime=time+y;
+            randomTiming=(((rand()%(juce::uint8)timing)-((juce::uint8)timing/2))*50);
+            newTime=time+randomTiming+2500;
+            }
             
+            else
+            {
+                newTime=time+2500;
+            }
+            
+            //if note is out of buffer range send it to outside buffer, if not output it.
             if(newTime>=buffer.getNumSamples())
             {
                 backupBuffer1.addEvent(m,newTime-buffer.getNumSamples());
             }
-            
-            /*else if(newTime<1)
-            {
-                processedMidi.addEvent (m,1);
-            }*/
          
             else
             {
             processedMidi.addEvent (m,newTime);
             }
-            //DBG(newTime);
-            /*else if (newTime>buffer.getNumSamples())
-            {
-                newTime=buffer.getNumSamples()-1;
-            }*/
         }
         else if (m.isNoteOff())
         {
-            processedMidi.addEvent (m, time);
+            if((time+2500-(timing*25))>=buffer.getNumSamples())
+            {
+                //subtracts the necessary amount of samples to ensure noteOn never occurs before the previous noteOFF
+                backupBuffer1.addEvent(m,time+2500-buffer.getNumSamples()-(timing*25));
+            }
+            
+            else
+            {
+            processedMidi.addEvent (m, time+2500-(timing*25));
+            }
         }
         else if (m.isAftertouch())
         {
-            processedMidi.addEvent (m, time);
+            if((time+2500)>=buffer.getNumSamples())
+            {
+                backupBuffer1.addEvent(m,time+2500-buffer.getNumSamples());
+            }
+            
+            else
+            {
+            processedMidi.addEvent (m, time+2500);
+            }
         }
         else if (m.isPitchWheel())
         {
-            processedMidi.addEvent (m, time);
+            if((time+2500)>=buffer.getNumSamples())
+            {
+                backupBuffer1.addEvent(m,time+2500-buffer.getNumSamples());
+            }
+            
+            else
+            {
+            processedMidi.addEvent (m, time+2500);
+            }
         }
-        
-        
         
  
         //play MIDI note

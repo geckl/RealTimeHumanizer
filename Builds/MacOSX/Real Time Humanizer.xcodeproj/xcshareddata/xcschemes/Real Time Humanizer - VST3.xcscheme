@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A58B7C8E49CBFCE0B78FAEB3"
-               BuildableName = "Real Time Humanizer.component"
-               BlueprintName = "Real Time Humanizer - AU"
+               BlueprintIdentifier = "DE443AE0DF4CDFA081388E48"
+               BuildableName = "Real Time Humanizer.vst3"
+               BlueprintName = "Real Time Humanizer - VST3"
                ReferencedContainer = "container:Real Time Humanizer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -31,7 +31,7 @@
       </Testables>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Debug"
+      buildConfiguration = "Release"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
@@ -40,11 +40,6 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <PathRunnable
-         runnableDebuggingMode = "0"
-         BundleIdentifier = "com.apple.logic10"
-         FilePath = "/Applications/Logic Pro X.app">
-      </PathRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -55,9 +50,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A58B7C8E49CBFCE0B78FAEB3"
-            BuildableName = "Real Time Humanizer.component"
-            BlueprintName = "Real Time Humanizer - AU"
+            BlueprintIdentifier = "DE443AE0DF4CDFA081388E48"
+            BuildableName = "Real Time Humanizer.vst3"
+            BlueprintName = "Real Time Humanizer - VST3"
             ReferencedContainer = "container:Real Time Humanizer.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
