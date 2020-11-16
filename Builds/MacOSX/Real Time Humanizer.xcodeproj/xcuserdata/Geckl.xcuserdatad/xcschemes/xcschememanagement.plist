@@ -7,19 +7,14 @@
 		<key>Real Time Humanizer - AU.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<key>Real Time Humanizer - All.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>0</integer>
 		</dict>
 		<key>Real Time Humanizer - Shared Code.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>4</integer>
-		</dict>
-		<key>Real Time Humanizer - Standalone Plugin.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>3</integer>
@@ -32,6 +27,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>5B53A058C84AFD8762596833</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>A58B7C8E49CBFCE0B78FAEB3</key>
 		<dict>
 			<key>primary</key>

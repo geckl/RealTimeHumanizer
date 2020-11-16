@@ -17,12 +17,12 @@
 MyFirstPluginAudioProcessor::MyFirstPluginAudioProcessor()
 #ifndef JucePlugin_PreferredChannelConfigurations
      : AudioProcessor (BusesProperties()
-                     #if ! JucePlugin_IsMidiEffect
-                      #if ! JucePlugin_IsSynth
+                     //#if ! JucePlugin_IsMidiEffect
+                      //#if ! JucePlugin_IsSynth
                        .withInput  ("Input",  juce::AudioChannelSet::stereo(), true)
-                      #endif
+                      //#endif
                        .withOutput ("Output", juce::AudioChannelSet::stereo(), true)
-                     #endif
+                     //#endif
                        ),
 #endif
     parameters(*this,nullptr,juce::Identifier ("RTHumanizer"),
@@ -249,7 +249,7 @@ void MyFirstPluginAudioProcessor::processBlock (juce::AudioSampleBuffer& buffer,
         
         if (m.isNoteOn())
         {
-            
+            DBG(beat);
             if(beat==0)
             {
                 z=beatone;

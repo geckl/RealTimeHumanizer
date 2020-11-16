@@ -13,10 +13,6 @@
 			isa = PBXBuildFile;
 			fileRef = 20C539596B8F17D334B7BD52;
 		};
-		53A5F3976BC3C16A127D6F19 = {
-			isa = PBXBuildFile;
-			fileRef = 2DAEE75C4876D2F6A2EA0763;
-		};
 		027F7882D2BBC467F0390C77 = {
 			isa = PBXBuildFile;
 			fileRef = EBBC889D20CF50ED1DF6AC04;
@@ -105,10 +101,6 @@
 			isa = PBXBuildFile;
 			fileRef = 92D3C9983A4A2A04AE34074F;
 		};
-		799D3CFC4FE1226A3BA61A43 = {
-			isa = PBXBuildFile;
-			fileRef = 0D1BF6019730CF65D18D8EB1;
-		};
 		0D8D6A5F61FA96BD951186F7 = {
 			isa = PBXBuildFile;
 			fileRef = D388B545BAD6DFE95AF74283;
@@ -167,13 +159,6 @@
 			path = System/Library/Frameworks/CoreAudioKit.framework;
 			sourceTree = SDKROOT;
 		};
-		0D1BF6019730CF65D18D8EB1 = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.cpp.cpp;
-			name = "include_juce_audio_plugin_client_Standalone.cpp";
-			path = "../../JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp";
-			sourceTree = "SOURCE_ROOT";
-		};
 		0D69F4A6B330F4DA91328D7C = {
 			isa = PBXFileReference;
 			lastKnownFileType = file;
@@ -215,13 +200,6 @@
 			name = "juce_graphics";
 			path = "/Users/Geckl/JUCE/modules/juce_graphics";
 			sourceTree = "<absolute>";
-		};
-		2DAEE75C4876D2F6A2EA0763 = {
-			isa = PBXFileReference;
-			explicitFileType = wrapper.application;
-			includeInIndex = 0;
-			path = "Real Time Humanizer.app";
-			sourceTree = "BUILT_PRODUCTS_DIR";
 		};
 		31DC69E5BFA12B499F43FEFB = {
 			isa = PBXFileReference;
@@ -326,13 +304,6 @@
 			lastKnownFileType = sourcecode.cpp.objcpp;
 			name = "include_juce_events.mm";
 			path = "../../JuceLibraryCode/include_juce_events.mm";
-			sourceTree = "SOURCE_ROOT";
-		};
-		845272B76B9E8ED82D53BF30 = {
-			isa = PBXFileReference;
-			lastKnownFileType = text.plist.xml;
-			name = "Info-Standalone_Plugin.plist";
-			path = "Info-Standalone_Plugin.plist";
 			sourceTree = "SOURCE_ROOT";
 		};
 		8966625D6DF658E19FFACEF2 = {
@@ -592,7 +563,6 @@
 				DD7A4A7B395A1CA263B15AC7,
 				12519DCB348DF498D7CFA0F1,
 				92D3C9983A4A2A04AE34074F,
-				0D1BF6019730CF65D18D8EB1,
 				D388B545BAD6DFE95AF74283,
 				90DD99DCCB02D06A86C082CF,
 				50EFAABC1374178581C80350,
@@ -615,7 +585,6 @@
 			children = (
 				CB6280BC5325FED43BEEF3AC,
 				AE903470A0C028C73DC36A3A,
-				845272B76B9E8ED82D53BF30,
 				5A8C70BE46B9FB883A4B1527,
 			);
 			name = Resources;
@@ -645,7 +614,6 @@
 			children = (
 				1FEF2514B9D1563A84BAC3FC,
 				20C539596B8F17D334B7BD52,
-				2DAEE75C4876D2F6A2EA0763,
 				EBBC889D20CF50ED1DF6AC04,
 			);
 			name = Products;
@@ -672,10 +640,6 @@
 			isa = PBXTargetDependency;
 			target = A58B7C8E49CBFCE0B78FAEB3;
 		};
-		FA238DBE12DD2D4103A25947 = {
-			isa = PBXTargetDependency;
-			target = 6215C145A1416C1EAB5E96A5;
-		};
 		F9899AEE13C6A04887F87F6E = {
 			isa = PBXTargetDependency;
 			target = EAD94E3A3DB0131D71B29CAC;
@@ -685,10 +649,6 @@
 			target = EAD94E3A3DB0131D71B29CAC;
 		};
 		35B497C5AC351AEF2500FD09 = {
-			isa = PBXTargetDependency;
-			target = EAD94E3A3DB0131D71B29CAC;
-		};
-		3CC719064946C08B3E931F44 = {
 			isa = PBXTargetDependency;
 			target = EAD94E3A3DB0131D71B29CAC;
 		};
@@ -734,7 +694,7 @@
 					"JucePlugin_Build_AUv3=0",
 					"JucePlugin_Build_RTAS=0",
 					"JucePlugin_Build_AAX=0",
-					"JucePlugin_Build_Standalone=1",
+					"JucePlugin_Build_Standalone=0",
 					"JucePlugin_Build_Unity=0",
 					"JUCE_DISPLAY_SPLASH_SCREEN=1",
 					"JUCE_USE_DARK_SPLASH_SCREEN=1",
@@ -845,7 +805,7 @@
 					"JucePlugin_Build_AUv3=0",
 					"JucePlugin_Build_RTAS=0",
 					"JucePlugin_Build_AAX=0",
-					"JucePlugin_Build_Standalone=1",
+					"JucePlugin_Build_Standalone=0",
 					"JucePlugin_Build_Unity=0",
 					"JUCE_DISPLAY_SPLASH_SCREEN=1",
 					"JUCE_USE_DARK_SPLASH_SCREEN=1",
@@ -957,7 +917,7 @@
 					"JucePlugin_Build_AUv3=0",
 					"JucePlugin_Build_RTAS=0",
 					"JucePlugin_Build_AAX=0",
-					"JucePlugin_Build_Standalone=1",
+					"JucePlugin_Build_Standalone=0",
 					"JucePlugin_Build_Unity=0",
 					"JUCE_DISPLAY_SPLASH_SCREEN=1",
 					"JUCE_USE_DARK_SPLASH_SCREEN=1",
@@ -1069,7 +1029,7 @@
 					"JucePlugin_Build_AUv3=0",
 					"JucePlugin_Build_RTAS=0",
 					"JucePlugin_Build_AAX=0",
-					"JucePlugin_Build_Standalone=1",
+					"JucePlugin_Build_Standalone=0",
 					"JucePlugin_Build_Unity=0",
 					"JUCE_DISPLAY_SPLASH_SCREEN=1",
 					"JUCE_USE_DARK_SPLASH_SCREEN=1",
@@ -1156,217 +1116,6 @@
 			};
 			name = Release;
 		};
-		1343E6E69FFAB718259EC4E9 = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_LINK_OBJC_RUNTIME = NO;
-				CODE_SIGN_IDENTITY = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
-				COPY_PHASE_STRIP = NO;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"_DEBUG=1",
-					"DEBUG=1",
-					"JUCER_XCODE_MAC_F6D2F4CF=1",
-					"JUCE_APP_VERSION=1.0.0",
-					"JUCE_APP_VERSION_HEX=0x10000",
-					"JucePlugin_Build_VST=0",
-					"JucePlugin_Build_VST3=1",
-					"JucePlugin_Build_AU=1",
-					"JucePlugin_Build_AUv3=0",
-					"JucePlugin_Build_RTAS=0",
-					"JucePlugin_Build_AAX=0",
-					"JucePlugin_Build_Standalone=1",
-					"JucePlugin_Build_Unity=0",
-					"JUCE_DISPLAY_SPLASH_SCREEN=1",
-					"JUCE_USE_DARK_SPLASH_SCREEN=1",
-					"JUCE_PROJUCER_VERSION=0x60001",
-					"JUCE_MODULE_AVAILABLE_juce_audio_basics=1",
-					"JUCE_MODULE_AVAILABLE_juce_audio_devices=1",
-					"JUCE_MODULE_AVAILABLE_juce_audio_formats=1",
-					"JUCE_MODULE_AVAILABLE_juce_audio_plugin_client=1",
-					"JUCE_MODULE_AVAILABLE_juce_audio_processors=1",
-					"JUCE_MODULE_AVAILABLE_juce_audio_utils=1",
-					"JUCE_MODULE_AVAILABLE_juce_core=1",
-					"JUCE_MODULE_AVAILABLE_juce_data_structures=1",
-					"JUCE_MODULE_AVAILABLE_juce_events=1",
-					"JUCE_MODULE_AVAILABLE_juce_graphics=1",
-					"JUCE_MODULE_AVAILABLE_juce_gui_basics=1",
-					"JUCE_MODULE_AVAILABLE_juce_gui_extra=1",
-					"JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1",
-					"JUCE_VST3_CAN_REPLACE_VST2=0",
-					"JUCE_STRICT_REFCOUNTEDPOINTER=1",
-					"JucePlugin_Enable_IAA=0",
-					"JucePlugin_Name=\\\"Real\\ Time\\ Humanizer\\\"",
-					"JucePlugin_Desc=\\\"Real\\ Time\\ Humanizer\\\"",
-					"JucePlugin_Manufacturer=\\\"Squatch\\ Sounds\\\"",
-					"JucePlugin_ManufacturerWebsite=\\\"\\\"",
-					"JucePlugin_ManufacturerEmail=\\\"\\\"",
-					"JucePlugin_ManufacturerCode=0x4d616e75",
-					"JucePlugin_PluginCode=0x5478736d",
-					"JucePlugin_IsSynth=0",
-					"JucePlugin_WantsMidiInput=1",
-					"JucePlugin_ProducesMidiOutput=1",
-					"JucePlugin_IsMidiEffect=1",
-					"JucePlugin_EditorRequiresKeyboardFocus=0",
-					"JucePlugin_Version=1.0.0",
-					"JucePlugin_VersionCode=0x10000",
-					"JucePlugin_VersionString=\\\"1.0.0\\\"",
-					"JucePlugin_VSTUniqueID=JucePlugin_PluginCode",
-					"JucePlugin_VSTCategory=kPlugCategEffect",
-					"JucePlugin_Vst3Category=\\\"Fx\\\"",
-					"JucePlugin_AUMainType='aumi'",
-					"JucePlugin_AUSubType=JucePlugin_PluginCode",
-					"JucePlugin_AUExportPrefix=RealTimeHumanizerAU",
-					"JucePlugin_AUExportPrefixQuoted=\\\"RealTimeHumanizerAU\\\"",
-					"JucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode",
-					"JucePlugin_CFBundleIdentifier=com.SquatchSounds.RealTimeHumanizer",
-					"JucePlugin_RTASCategory=0",
-					"JucePlugin_RTASManufacturerCode=JucePlugin_ManufacturerCode",
-					"JucePlugin_RTASProductId=JucePlugin_PluginCode",
-					"JucePlugin_RTASDisableBypass=0",
-					"JucePlugin_RTASDisableMultiMono=0",
-					"JucePlugin_AAXIdentifier=com.SquatchSounds.RealTimeHumanizer",
-					"JucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode",
-					"JucePlugin_AAXProductId=JucePlugin_PluginCode",
-					"JucePlugin_AAXCategory=0",
-					"JucePlugin_AAXDisableBypass=0",
-					"JucePlugin_AAXDisableMultiMono=0",
-					"JucePlugin_IAAType=0x6175726d",
-					"JucePlugin_IAASubType=JucePlugin_PluginCode",
-					"JucePlugin_IAAName=\\\"Squatch\\ Sounds:\\ Real\\ Time\\ Humanizer\\\"",
-					"JucePlugin_VSTNumMidiInputs=16",
-					"JucePlugin_VSTNumMidiOutputs=16",
-					"JUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone",
-				);
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				HEADER_SEARCH_PATHS = (
-					"/Users/Geckl/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
-					"../../JuceLibraryCode",
-					"/Users/Geckl/JUCE/modules",
-					"/Users/Geckl/JUCE/modules/juce_audio_plugin_client",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Info-Standalone_Plugin.plist;
-				INFOPLIST_PREPROCESS = NO;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				OTHER_LDFLAGS = "-lReal\\ Time\\ Humanizer";
-				PRODUCT_BUNDLE_IDENTIFIER = com.SquatchSounds.RealTimeHumanizer;
-				PRODUCT_NAME = "Real Time Humanizer";
-				USE_HEADERMAP = NO;
-			};
-			name = Debug;
-		};
-		F30F65AEB1EAAE562C6FF17B = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_LINK_OBJC_RUNTIME = NO;
-				CODE_SIGN_IDENTITY = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
-				DEAD_CODE_STRIPPING = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"_NDEBUG=1",
-					"NDEBUG=1",
-					"JUCER_XCODE_MAC_F6D2F4CF=1",
-					"JUCE_APP_VERSION=1.0.0",
-					"JUCE_APP_VERSION_HEX=0x10000",
-					"JucePlugin_Build_VST=0",
-					"JucePlugin_Build_VST3=1",
-					"JucePlugin_Build_AU=1",
-					"JucePlugin_Build_AUv3=0",
-					"JucePlugin_Build_RTAS=0",
-					"JucePlugin_Build_AAX=0",
-					"JucePlugin_Build_Standalone=1",
-					"JucePlugin_Build_Unity=0",
-					"JUCE_DISPLAY_SPLASH_SCREEN=1",
-					"JUCE_USE_DARK_SPLASH_SCREEN=1",
-					"JUCE_PROJUCER_VERSION=0x60001",
-					"JUCE_MODULE_AVAILABLE_juce_audio_basics=1",
-					"JUCE_MODULE_AVAILABLE_juce_audio_devices=1",
-					"JUCE_MODULE_AVAILABLE_juce_audio_formats=1",
-					"JUCE_MODULE_AVAILABLE_juce_audio_plugin_client=1",
-					"JUCE_MODULE_AVAILABLE_juce_audio_processors=1",
-					"JUCE_MODULE_AVAILABLE_juce_audio_utils=1",
-					"JUCE_MODULE_AVAILABLE_juce_core=1",
-					"JUCE_MODULE_AVAILABLE_juce_data_structures=1",
-					"JUCE_MODULE_AVAILABLE_juce_events=1",
-					"JUCE_MODULE_AVAILABLE_juce_graphics=1",
-					"JUCE_MODULE_AVAILABLE_juce_gui_basics=1",
-					"JUCE_MODULE_AVAILABLE_juce_gui_extra=1",
-					"JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1",
-					"JUCE_VST3_CAN_REPLACE_VST2=0",
-					"JUCE_STRICT_REFCOUNTEDPOINTER=1",
-					"JucePlugin_Enable_IAA=0",
-					"JucePlugin_Name=\\\"Real\\ Time\\ Humanizer\\\"",
-					"JucePlugin_Desc=\\\"Real\\ Time\\ Humanizer\\\"",
-					"JucePlugin_Manufacturer=\\\"Squatch\\ Sounds\\\"",
-					"JucePlugin_ManufacturerWebsite=\\\"\\\"",
-					"JucePlugin_ManufacturerEmail=\\\"\\\"",
-					"JucePlugin_ManufacturerCode=0x4d616e75",
-					"JucePlugin_PluginCode=0x5478736d",
-					"JucePlugin_IsSynth=0",
-					"JucePlugin_WantsMidiInput=1",
-					"JucePlugin_ProducesMidiOutput=1",
-					"JucePlugin_IsMidiEffect=1",
-					"JucePlugin_EditorRequiresKeyboardFocus=0",
-					"JucePlugin_Version=1.0.0",
-					"JucePlugin_VersionCode=0x10000",
-					"JucePlugin_VersionString=\\\"1.0.0\\\"",
-					"JucePlugin_VSTUniqueID=JucePlugin_PluginCode",
-					"JucePlugin_VSTCategory=kPlugCategEffect",
-					"JucePlugin_Vst3Category=\\\"Fx\\\"",
-					"JucePlugin_AUMainType='aumi'",
-					"JucePlugin_AUSubType=JucePlugin_PluginCode",
-					"JucePlugin_AUExportPrefix=RealTimeHumanizerAU",
-					"JucePlugin_AUExportPrefixQuoted=\\\"RealTimeHumanizerAU\\\"",
-					"JucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode",
-					"JucePlugin_CFBundleIdentifier=com.SquatchSounds.RealTimeHumanizer",
-					"JucePlugin_RTASCategory=0",
-					"JucePlugin_RTASManufacturerCode=JucePlugin_ManufacturerCode",
-					"JucePlugin_RTASProductId=JucePlugin_PluginCode",
-					"JucePlugin_RTASDisableBypass=0",
-					"JucePlugin_RTASDisableMultiMono=0",
-					"JucePlugin_AAXIdentifier=com.SquatchSounds.RealTimeHumanizer",
-					"JucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode",
-					"JucePlugin_AAXProductId=JucePlugin_PluginCode",
-					"JucePlugin_AAXCategory=0",
-					"JucePlugin_AAXDisableBypass=0",
-					"JucePlugin_AAXDisableMultiMono=0",
-					"JucePlugin_IAAType=0x6175726d",
-					"JucePlugin_IAASubType=JucePlugin_PluginCode",
-					"JucePlugin_IAAName=\\\"Squatch\\ Sounds:\\ Real\\ Time\\ Humanizer\\\"",
-					"JucePlugin_VSTNumMidiInputs=16",
-					"JucePlugin_VSTNumMidiOutputs=16",
-					"JUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone",
-				);
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				HEADER_SEARCH_PATHS = (
-					"/Users/Geckl/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
-					"../../JuceLibraryCode",
-					"/Users/Geckl/JUCE/modules",
-					"/Users/Geckl/JUCE/modules/juce_audio_plugin_client",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Info-Standalone_Plugin.plist;
-				INFOPLIST_PREPROCESS = NO;
-				LLVM_LTO = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				OTHER_LDFLAGS = "-lReal\\ Time\\ Humanizer";
-				PRODUCT_BUNDLE_IDENTIFIER = com.SquatchSounds.RealTimeHumanizer;
-				PRODUCT_NAME = "Real Time Humanizer";
-				USE_HEADERMAP = NO;
-			};
-			name = Release;
-		};
 		FAC5B06D0CEF148E9ABC427C = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1391,7 +1140,7 @@
 					"JucePlugin_Build_AUv3=0",
 					"JucePlugin_Build_RTAS=0",
 					"JucePlugin_Build_AAX=0",
-					"JucePlugin_Build_Standalone=1",
+					"JucePlugin_Build_Standalone=0",
 					"JucePlugin_Build_Unity=0",
 					"JUCE_SHARED_CODE=1",
 					"JUCE_DISPLAY_SPLASH_SCREEN=1",
@@ -1496,7 +1245,7 @@
 					"JucePlugin_Build_AUv3=0",
 					"JucePlugin_Build_RTAS=0",
 					"JucePlugin_Build_AAX=0",
-					"JucePlugin_Build_Standalone=1",
+					"JucePlugin_Build_Standalone=0",
 					"JucePlugin_Build_Unity=0",
 					"JUCE_SHARED_CODE=1",
 					"JUCE_DISPLAY_SPLASH_SCREEN=1",
@@ -1701,7 +1450,6 @@
 			dependencies = (
 				C32F09E2CCDFC438B57C9021,
 				553AAD74D994370F5D49CB16,
-				FA238DBE12DD2D4103A25947,
 				F9899AEE13C6A04887F87F6E,
 			);
 			name = "Real Time Humanizer - All";
@@ -1838,66 +1586,6 @@
 			productReference = 20C539596B8F17D334B7BD52;
 			productType = "com.apple.product-type.bundle";
 		};
-		82967AA285EF8414C3CA4CAC = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1343E6E69FFAB718259EC4E9,
-				F30F65AEB1EAAE562C6FF17B,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
-		AD4B9E8C2DD534C40A43E864 = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				55048203B8E7434761F49ECD,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5BA982A81EE546BF6E3FC125 = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				799D3CFC4FE1226A3BA61A43,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C874265607DF2F79E1C086B0 = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F28294CBCEE82809161AAF8A,
-				F15A565F515C0AABF8A18DBD,
-				84C4EA7C04BDB75CC962F729,
-				55C354D6200F6B4743A1E5E5,
-				2945E3EB85E5C06E00C523A2,
-				AE382A009C4AB55355450684,
-				128F27E732AB6DD0E0A7FB0C,
-				E8587D86D968CFA9E760C0EF,
-				A54901B6ADBEEF14D179F6FC,
-				C42799D8B7104C7D0EF7CECE,
-				480AC26FA1C67126AF09A821,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6215C145A1416C1EAB5E96A5 = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 82967AA285EF8414C3CA4CAC;
-			buildPhases = (
-				AD4B9E8C2DD534C40A43E864,
-				5BA982A81EE546BF6E3FC125,
-				C874265607DF2F79E1C086B0,
-			);
-			buildRules = ( );
-			dependencies = (
-				3CC719064946C08B3E931F44,
-			);
-			name = "Real Time Humanizer - Standalone Plugin";
-			productName = "Real Time Humanizer";
-			productReference = 2DAEE75C4876D2F6A2EA0763;
-			productType = "com.apple.product-type.application";
-		};
 		00501BB6DCFA7358A03D4547 = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1945,13 +1633,13 @@
 		A093D3CBAFB3BF18F95FE210 = {
 			isa = PBXProject;
 			buildConfigurationList = 38D913C53D2AE65A36472541;
-			attributes = { LastUpgradeCheck = 1100; ORGANIZATIONNAME = "Squatch Sounds"; TargetAttributes = { 5B53A058C84AFD8762596833 = { SystemCapabilities = {com.apple.ApplicationGroups.iOS = { enabled = 0; }; com.apple.InAppPurchase = { enabled = 0; }; com.apple.InterAppAudio = { enabled = 0; }; com.apple.Push = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; com.apple.HardenedRuntime = { enabled = 0; }; }; };DE443AE0DF4CDFA081388E48 = { SystemCapabilities = {com.apple.ApplicationGroups.iOS = { enabled = 0; }; com.apple.InAppPurchase = { enabled = 0; }; com.apple.InterAppAudio = { enabled = 0; }; com.apple.Push = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; com.apple.HardenedRuntime = { enabled = 0; }; }; };A58B7C8E49CBFCE0B78FAEB3 = { SystemCapabilities = {com.apple.ApplicationGroups.iOS = { enabled = 0; }; com.apple.InAppPurchase = { enabled = 0; }; com.apple.InterAppAudio = { enabled = 0; }; com.apple.Push = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; com.apple.HardenedRuntime = { enabled = 0; }; }; };6215C145A1416C1EAB5E96A5 = { SystemCapabilities = {com.apple.ApplicationGroups.iOS = { enabled = 0; }; com.apple.InAppPurchase = { enabled = 0; }; com.apple.InterAppAudio = { enabled = 0; }; com.apple.Push = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; com.apple.HardenedRuntime = { enabled = 0; }; }; };EAD94E3A3DB0131D71B29CAC = { SystemCapabilities = {com.apple.ApplicationGroups.iOS = { enabled = 0; }; com.apple.InAppPurchase = { enabled = 0; }; com.apple.InterAppAudio = { enabled = 0; }; com.apple.Push = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; com.apple.HardenedRuntime = { enabled = 0; }; }; }; }; };
+			attributes = { LastUpgradeCheck = 1100; ORGANIZATIONNAME = "Squatch Sounds"; TargetAttributes = { 5B53A058C84AFD8762596833 = { SystemCapabilities = {com.apple.ApplicationGroups.iOS = { enabled = 0; }; com.apple.InAppPurchase = { enabled = 0; }; com.apple.InterAppAudio = { enabled = 0; }; com.apple.Push = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; com.apple.HardenedRuntime = { enabled = 0; }; }; };DE443AE0DF4CDFA081388E48 = { SystemCapabilities = {com.apple.ApplicationGroups.iOS = { enabled = 0; }; com.apple.InAppPurchase = { enabled = 0; }; com.apple.InterAppAudio = { enabled = 0; }; com.apple.Push = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; com.apple.HardenedRuntime = { enabled = 0; }; }; };A58B7C8E49CBFCE0B78FAEB3 = { SystemCapabilities = {com.apple.ApplicationGroups.iOS = { enabled = 0; }; com.apple.InAppPurchase = { enabled = 0; }; com.apple.InterAppAudio = { enabled = 0; }; com.apple.Push = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; com.apple.HardenedRuntime = { enabled = 0; }; }; };EAD94E3A3DB0131D71B29CAC = { SystemCapabilities = {com.apple.ApplicationGroups.iOS = { enabled = 0; }; com.apple.InAppPurchase = { enabled = 0; }; com.apple.InterAppAudio = { enabled = 0; }; com.apple.Push = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; com.apple.HardenedRuntime = { enabled = 0; }; }; }; }; };
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
 			mainGroup = 760DBDB9D9227C9125F37A07;
 			projectDirPath = "";
 			projectRoot = "";
-			targets = (5B53A058C84AFD8762596833, DE443AE0DF4CDFA081388E48, A58B7C8E49CBFCE0B78FAEB3, 6215C145A1416C1EAB5E96A5, EAD94E3A3DB0131D71B29CAC);
+			targets = (5B53A058C84AFD8762596833, DE443AE0DF4CDFA081388E48, A58B7C8E49CBFCE0B78FAEB3, EAD94E3A3DB0131D71B29CAC);
 			knownRegions = (en, Base);
 		};
 	};

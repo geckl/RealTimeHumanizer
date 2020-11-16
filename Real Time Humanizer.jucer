@@ -2,7 +2,8 @@
 
 <JUCERPROJECT id="TXSMO0" name="Real Time Humanizer" projectType="audioplug"
               useAppConfig="0" addUsingNamespaceToJuceHeader="0" displaySplashScreen="1"
-              jucerFormatVersion="1" companyName="Squatch Sounds" pluginCharacteristicsValue="pluginIsMidiEffectPlugin,pluginProducesMidiOut,pluginWantsMidiIn">
+              jucerFormatVersion="1" companyName="Squatch Sounds" pluginCharacteristicsValue="pluginIsMidiEffectPlugin,pluginProducesMidiOut,pluginWantsMidiIn"
+              pluginFormats="buildAU,buildVST3">
   <MAINGROUP id="z3lExx" name="Real Time Humanizer">
     <GROUP id="{E6D2C983-4AE4-9AD8-E971-1DC0652E55D0}" name="Source">
       <FILE id="H18QEq" name="PluginProcessor.cpp" compile="1" resource="0"
