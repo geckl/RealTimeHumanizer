@@ -698,7 +698,7 @@
 					"JucePlugin_Build_Unity=0",
 					"JUCE_DISPLAY_SPLASH_SCREEN=1",
 					"JUCE_USE_DARK_SPLASH_SCREEN=1",
-					"JUCE_PROJUCER_VERSION=0x60001",
+					"JUCE_PROJUCER_VERSION=0x60004",
 					"JUCE_MODULE_AVAILABLE_juce_audio_basics=1",
 					"JUCE_MODULE_AVAILABLE_juce_audio_devices=1",
 					"JUCE_MODULE_AVAILABLE_juce_audio_formats=1",
@@ -771,10 +771,17 @@
 				INSTALL_PATH = "$(HOME)/Library/Audio/Plug-Ins/VST3/";
 				LIBRARY_STYLE = Bundle;
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_HEADER_SEARCH_PATHS = (
+					"/Users/Geckl/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
+					"../../JuceLibraryCode",
+					"/Users/Geckl/JUCE/modules",
+					"/Users/Geckl/JUCE/modules/juce_audio_plugin_client",
+				);
 				OTHER_LDFLAGS = "-bundle -lReal\\ Time\\ Humanizer";
 				PRODUCT_BUNDLE_IDENTIFIER = com.SquatchSounds.RealTimeHumanizer;
 				PRODUCT_NAME = "Real Time Humanizer";
 				USE_HEADERMAP = NO;
+				VALID_ARCHS = "i386 x86_64 arm64 arm64e";
 				WRAPPER_EXTENSION = vst3;
 			};
 			name = Debug;
@@ -809,7 +816,7 @@
 					"JucePlugin_Build_Unity=0",
 					"JUCE_DISPLAY_SPLASH_SCREEN=1",
 					"JUCE_USE_DARK_SPLASH_SCREEN=1",
-					"JUCE_PROJUCER_VERSION=0x60001",
+					"JUCE_PROJUCER_VERSION=0x60004",
 					"JUCE_MODULE_AVAILABLE_juce_audio_basics=1",
 					"JUCE_MODULE_AVAILABLE_juce_audio_devices=1",
 					"JUCE_MODULE_AVAILABLE_juce_audio_formats=1",
@@ -883,10 +890,17 @@
 				LIBRARY_STYLE = Bundle;
 				LLVM_LTO = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_HEADER_SEARCH_PATHS = (
+					"/Users/Geckl/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
+					"../../JuceLibraryCode",
+					"/Users/Geckl/JUCE/modules",
+					"/Users/Geckl/JUCE/modules/juce_audio_plugin_client",
+				);
 				OTHER_LDFLAGS = "-bundle -lReal\\ Time\\ Humanizer";
 				PRODUCT_BUNDLE_IDENTIFIER = com.SquatchSounds.RealTimeHumanizer;
 				PRODUCT_NAME = "Real Time Humanizer";
 				USE_HEADERMAP = NO;
+				VALID_ARCHS = "i386 x86_64 arm64 arm64e";
 				WRAPPER_EXTENSION = vst3;
 			};
 			name = Release;
@@ -921,7 +935,7 @@
 					"JucePlugin_Build_Unity=0",
 					"JUCE_DISPLAY_SPLASH_SCREEN=1",
 					"JUCE_USE_DARK_SPLASH_SCREEN=1",
-					"JUCE_PROJUCER_VERSION=0x60001",
+					"JUCE_PROJUCER_VERSION=0x60004",
 					"JUCE_MODULE_AVAILABLE_juce_audio_basics=1",
 					"JUCE_MODULE_AVAILABLE_juce_audio_devices=1",
 					"JUCE_MODULE_AVAILABLE_juce_audio_formats=1",
@@ -994,11 +1008,18 @@
 				INSTALL_PATH = "$(HOME)/Library/Audio/Plug-Ins/Components/";
 				LIBRARY_STYLE = Bundle;
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_HEADER_SEARCH_PATHS = (
+					"/Users/Geckl/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
+					"../../JuceLibraryCode",
+					"/Users/Geckl/JUCE/modules",
+					"/Users/Geckl/JUCE/modules/juce_audio_plugin_client",
+				);
 				OTHER_LDFLAGS = "-bundle -lReal\\ Time\\ Humanizer";
 				OTHER_REZFLAGS = "-d ppc_$ppc -d i386_$i386 -d ppc64_$ppc64 -d x86_64_$x86_64 -I /System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Versions/A/Headers -I \"$(DEVELOPER_DIR)/Extras/CoreAudio/AudioUnits/AUPublic/AUBase\" -I \"$(DEVELOPER_DIR)/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/AudioUnit.framework/Headers\"";
 				PRODUCT_BUNDLE_IDENTIFIER = com.SquatchSounds.RealTimeHumanizer;
 				PRODUCT_NAME = "Real Time Humanizer";
 				USE_HEADERMAP = NO;
+				VALID_ARCHS = "i386 x86_64 arm64 arm64e";
 				WRAPPER_EXTENSION = component;
 			};
 			name = Debug;
@@ -1033,7 +1054,7 @@
 					"JucePlugin_Build_Unity=0",
 					"JUCE_DISPLAY_SPLASH_SCREEN=1",
 					"JUCE_USE_DARK_SPLASH_SCREEN=1",
-					"JUCE_PROJUCER_VERSION=0x60001",
+					"JUCE_PROJUCER_VERSION=0x60004",
 					"JUCE_MODULE_AVAILABLE_juce_audio_basics=1",
 					"JUCE_MODULE_AVAILABLE_juce_audio_devices=1",
 					"JUCE_MODULE_AVAILABLE_juce_audio_formats=1",
@@ -1107,11 +1128,18 @@
 				LIBRARY_STYLE = Bundle;
 				LLVM_LTO = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_HEADER_SEARCH_PATHS = (
+					"/Users/Geckl/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
+					"../../JuceLibraryCode",
+					"/Users/Geckl/JUCE/modules",
+					"/Users/Geckl/JUCE/modules/juce_audio_plugin_client",
+				);
 				OTHER_LDFLAGS = "-bundle -lReal\\ Time\\ Humanizer";
 				OTHER_REZFLAGS = "-d ppc_$ppc -d i386_$i386 -d ppc64_$ppc64 -d x86_64_$x86_64 -I /System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Versions/A/Headers -I \"$(DEVELOPER_DIR)/Extras/CoreAudio/AudioUnits/AUPublic/AUBase\" -I \"$(DEVELOPER_DIR)/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/AudioUnit.framework/Headers\"";
 				PRODUCT_BUNDLE_IDENTIFIER = com.SquatchSounds.RealTimeHumanizer;
 				PRODUCT_NAME = "Real Time Humanizer";
 				USE_HEADERMAP = NO;
+				VALID_ARCHS = "i386 x86_64 arm64 arm64e";
 				WRAPPER_EXTENSION = component;
 			};
 			name = Release;
@@ -1145,7 +1173,7 @@
 					"JUCE_SHARED_CODE=1",
 					"JUCE_DISPLAY_SPLASH_SCREEN=1",
 					"JUCE_USE_DARK_SPLASH_SCREEN=1",
-					"JUCE_PROJUCER_VERSION=0x60001",
+					"JUCE_PROJUCER_VERSION=0x60004",
 					"JUCE_MODULE_AVAILABLE_juce_audio_basics=1",
 					"JUCE_MODULE_AVAILABLE_juce_audio_devices=1",
 					"JUCE_MODULE_AVAILABLE_juce_audio_formats=1",
@@ -1214,10 +1242,17 @@
 				);
 				INSTALL_PATH = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_HEADER_SEARCH_PATHS = (
+					"/Users/Geckl/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
+					"../../JuceLibraryCode",
+					"/Users/Geckl/JUCE/modules",
+					"/Users/Geckl/JUCE/modules/juce_audio_plugin_client",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.SquatchSounds.RealTimeHumanizer;
 				PRODUCT_NAME = "Real Time Humanizer";
 				SKIP_INSTALL = YES;
 				USE_HEADERMAP = NO;
+				VALID_ARCHS = "i386 x86_64 arm64 arm64e";
 			};
 			name = Debug;
 		};
@@ -1250,7 +1285,7 @@
 					"JUCE_SHARED_CODE=1",
 					"JUCE_DISPLAY_SPLASH_SCREEN=1",
 					"JUCE_USE_DARK_SPLASH_SCREEN=1",
-					"JUCE_PROJUCER_VERSION=0x60001",
+					"JUCE_PROJUCER_VERSION=0x60004",
 					"JUCE_MODULE_AVAILABLE_juce_audio_basics=1",
 					"JUCE_MODULE_AVAILABLE_juce_audio_devices=1",
 					"JUCE_MODULE_AVAILABLE_juce_audio_formats=1",
@@ -1320,10 +1355,17 @@
 				INSTALL_PATH = "@executable_path/../Frameworks";
 				LLVM_LTO = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_HEADER_SEARCH_PATHS = (
+					"/Users/Geckl/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
+					"../../JuceLibraryCode",
+					"/Users/Geckl/JUCE/modules",
+					"/Users/Geckl/JUCE/modules/juce_audio_plugin_client",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.SquatchSounds.RealTimeHumanizer;
 				PRODUCT_NAME = "Real Time Humanizer";
 				SKIP_INSTALL = YES;
 				USE_HEADERMAP = NO;
+				VALID_ARCHS = "i386 x86_64 arm64 arm64e";
 			};
 			name = Release;
 		};
@@ -1633,7 +1675,7 @@
 		A093D3CBAFB3BF18F95FE210 = {
 			isa = PBXProject;
 			buildConfigurationList = 38D913C53D2AE65A36472541;
-			attributes = { LastUpgradeCheck = 1100; ORGANIZATIONNAME = "Squatch Sounds"; TargetAttributes = { 5B53A058C84AFD8762596833 = { SystemCapabilities = {com.apple.ApplicationGroups.iOS = { enabled = 0; }; com.apple.InAppPurchase = { enabled = 0; }; com.apple.InterAppAudio = { enabled = 0; }; com.apple.Push = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; com.apple.HardenedRuntime = { enabled = 0; }; }; };DE443AE0DF4CDFA081388E48 = { SystemCapabilities = {com.apple.ApplicationGroups.iOS = { enabled = 0; }; com.apple.InAppPurchase = { enabled = 0; }; com.apple.InterAppAudio = { enabled = 0; }; com.apple.Push = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; com.apple.HardenedRuntime = { enabled = 0; }; }; };A58B7C8E49CBFCE0B78FAEB3 = { SystemCapabilities = {com.apple.ApplicationGroups.iOS = { enabled = 0; }; com.apple.InAppPurchase = { enabled = 0; }; com.apple.InterAppAudio = { enabled = 0; }; com.apple.Push = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; com.apple.HardenedRuntime = { enabled = 0; }; }; };EAD94E3A3DB0131D71B29CAC = { SystemCapabilities = {com.apple.ApplicationGroups.iOS = { enabled = 0; }; com.apple.InAppPurchase = { enabled = 0; }; com.apple.InterAppAudio = { enabled = 0; }; com.apple.Push = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; com.apple.HardenedRuntime = { enabled = 0; }; }; }; }; };
+			attributes = { LastUpgradeCheck = 1200; ORGANIZATIONNAME = "Squatch Sounds"; TargetAttributes = { 5B53A058C84AFD8762596833 = { SystemCapabilities = {com.apple.ApplicationGroups.iOS = { enabled = 0; }; com.apple.InAppPurchase = { enabled = 0; }; com.apple.InterAppAudio = { enabled = 0; }; com.apple.Push = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; com.apple.HardenedRuntime = { enabled = 0; }; }; };DE443AE0DF4CDFA081388E48 = { SystemCapabilities = {com.apple.ApplicationGroups.iOS = { enabled = 0; }; com.apple.InAppPurchase = { enabled = 0; }; com.apple.InterAppAudio = { enabled = 0; }; com.apple.Push = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; com.apple.HardenedRuntime = { enabled = 0; }; }; };A58B7C8E49CBFCE0B78FAEB3 = { SystemCapabilities = {com.apple.ApplicationGroups.iOS = { enabled = 0; }; com.apple.InAppPurchase = { enabled = 0; }; com.apple.InterAppAudio = { enabled = 0; }; com.apple.Push = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; com.apple.HardenedRuntime = { enabled = 0; }; }; };EAD94E3A3DB0131D71B29CAC = { SystemCapabilities = {com.apple.ApplicationGroups.iOS = { enabled = 0; }; com.apple.InAppPurchase = { enabled = 0; }; com.apple.InterAppAudio = { enabled = 0; }; com.apple.Push = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; com.apple.HardenedRuntime = { enabled = 0; }; }; }; }; };
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
 			mainGroup = 760DBDB9D9227C9125F37A07;
