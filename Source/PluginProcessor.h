@@ -17,8 +17,8 @@ class MyFirstPluginAudioProcessor  : public juce::AudioProcessor
 {
 public:
     
-     float velocity=1;
-     float timing=1;
+     float velocity=0;
+     float timing=0;
     
 
      int numOfBeats=99;
@@ -79,6 +79,7 @@ private:
     
     juce::AudioPlayHead* playHead;
     juce::AudioPlayHead::CurrentPositionInfo currentPositionInfo;
+    juce::AudioPlayHead::CurrentPositionInfo previousPositionInfo;
     int beat;
 
 };

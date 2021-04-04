@@ -77,6 +77,10 @@
 			isa = PBXBuildFile;
 			fileRef = E933B6468C73524985C7EC28;
 		};
+		D4638DA236327C71F628241A = {
+			isa = PBXBuildFile;
+			fileRef = 9EF35E292671C67B913E8CD0;
+		};
 		D8124A5C73C5F629462292CF = {
 			isa = PBXBuildFile;
 			fileRef = E91C495F2F5843A066265DD7;
@@ -201,6 +205,13 @@
 			path = "/Users/Geckl/JUCE/modules/juce_graphics";
 			sourceTree = "<absolute>";
 		};
+		28847C09F29F608C4CBCA2E9 = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.png;
+			name = SquatchSoundsLogo.png;
+			path = ../../Resources/SquatchSoundsLogo.png;
+			sourceTree = "SOURCE_ROOT";
+		};
 		31DC69E5BFA12B499F43FEFB = {
 			isa = PBXFileReference;
 			lastKnownFileType = file;
@@ -269,6 +280,13 @@
 			lastKnownFileType = sourcecode.c.h;
 			name = JucePluginDefines.h;
 			path = ../../JuceLibraryCode/JucePluginDefines.h;
+			sourceTree = "SOURCE_ROOT";
+		};
+		661BE956A8EB070515CF7223 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = BinaryData.h;
+			path = ../../JuceLibraryCode/BinaryData.h;
 			sourceTree = "SOURCE_ROOT";
 		};
 		6A53026741AC1C0D8F0CE732 = {
@@ -347,6 +365,13 @@
 			name = "juce_audio_devices";
 			path = "/Users/Geckl/JUCE/modules/juce_audio_devices";
 			sourceTree = "<absolute>";
+		};
+		9EF35E292671C67B913E8CD0 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = BinaryData.cpp;
+			path = ../../JuceLibraryCode/BinaryData.cpp;
+			sourceTree = "SOURCE_ROOT";
 		};
 		A2D85634B24DEB3C2E1ACBA0 = {
 			isa = PBXFileReference;
@@ -527,10 +552,19 @@
 			name = Source;
 			sourceTree = "<group>";
 		};
+		6C20DCFFAEFD9F9E072C0456 = {
+			isa = PBXGroup;
+			children = (
+				28847C09F29F608C4CBCA2E9,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		DCA2618F5C48AFCFB48882A3 = {
 			isa = PBXGroup;
 			children = (
 				7B5F6816A5BD8F573201FEF0,
+				6C20DCFFAEFD9F9E072C0456,
 			);
 			name = "Real Time Humanizer";
 			sourceTree = "<group>";
@@ -557,6 +591,8 @@
 		83667AFC2392ECB8DA48A1D3 = {
 			isa = PBXGroup;
 			children = (
+				9EF35E292671C67B913E8CD0,
+				661BE956A8EB070515CF7223,
 				E91C495F2F5843A066265DD7,
 				B7D0E9E4306C3AA781C6366A,
 				8966625D6DF658E19FFACEF2,
@@ -1643,6 +1679,7 @@
 			files = (
 				7C6DB2D1F8590D021DFF6052,
 				E37E32977556FBC7E35CB256,
+				D4638DA236327C71F628241A,
 				D8124A5C73C5F629462292CF,
 				28B6FE36AAE34114CF7EA5A9,
 				DFFF4E66D358AB355F340D11,

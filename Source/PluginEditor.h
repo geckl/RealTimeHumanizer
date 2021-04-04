@@ -39,6 +39,7 @@ private:
     juce::Slider midiVolume, midiTiming;
     juce::Slider beatOne,beatTwo,beatThree,beatFour;
     juce::Array<juce::Slider*> Sliders;
+    juce::ImageComponent logoComponent;
     
     //juce::AudioProcessorValueTreeState& valueTreeState;
     

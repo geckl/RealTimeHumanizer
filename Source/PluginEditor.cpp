@@ -20,6 +20,19 @@ MyFirstPluginAudioProcessorEditor::MyFirstPluginAudioProcessorEditor (MyFirstPlu
     //initializes timer for greying out unused sliders
     startTimer(100);
     
+    auto logo= juce::ImageCache::getFromMemory(BinaryData::SquatchSoundsLogo_png, BinaryData::SquatchSoundsLogo_pngSize);
+    
+    if(! logo.isNull())
+    {
+        logoComponent.setImage(logo,64);
+    }
+    else
+    {
+        jassert(! logo.isNull());
+    }
+    
+    addAndMakeVisible(logoComponent);
+    
     // these define the parameters of the velocity randomizer
     midiVolume.setSliderStyle (juce::Slider::LinearBarVertical);
     midiVolume.setRange (1.0, 100.0, 1.0);
@@ -125,14 +138,14 @@ void MyFirstPluginAudioProcessorEditor::paint (juce::Graphics& g)
     g.setColour (juce::Colours::black);
     g.setFont (15.0f);
     g.drawFittedText ("Velocity", 0, 0, 100, 30, juce::Justification::centred, 1);
-    g.drawFittedText ("Randomization", 0, 15, 100, 30, juce::Justification::centred, 1);
-    g.drawFittedText ("Timing", 100, 0, 100, 30, juce::Justification::centred, 1);
-    g.drawFittedText ("Randomization", 100, 15, 100, 30, juce::Justification::centred, 1);
-    g.drawFittedText ("Beat Emphasization", 210, 0, 120, 30, juce::Justification::centred, 1);
-    g.drawFittedText ("1", 210, 15, 30, 30, juce::Justification::centred, 1);
-    g.drawFittedText ("2", 240, 15, 30, 30, juce::Justification::centred, 1);
-    g.drawFittedText ("3", 270, 15, 30, 30, juce::Justification::centred, 1);
-    g.drawFittedText ("4", 300, 15, 30, 30, juce::Justification::centred, 1);
+    g.drawFittedText ("Randomizer", 0, 15, 100, 30, juce::Justification::centred, 1);
+    g.drawFittedText ("Timing", 80, 0, 100, 30, juce::Justification::centred, 1);
+    g.drawFittedText ("Randomizer", 80, 15, 100, 30, juce::Justification::centred, 1);
+    g.drawFittedText ("Beat Accentuation", 170, 0, 120, 30, juce::Justification::centred, 1);
+    g.drawFittedText ("1", 170, 15, 30, 30, juce::Justification::centred, 1);
+    g.drawFittedText ("2", 200, 15, 30, 30, juce::Justification::centred, 1);
+    g.drawFittedText ("3", 230, 15, 30, 30, juce::Justification::centred, 1);
+    g.drawFittedText ("4", 260, 15, 30, 30, juce::Justification::centred, 1);
     
     //Disable beat sliders that aren't needed for current time signature
     for(int n=4; n>0;n--)
@@ -166,11 +179,13 @@ void MyFirstPluginAudioProcessorEditor::resized()
     
     // sets the position and size of the slider with arguments (x, y, width, height)
     midiVolume.setBounds (40, 40, 20, getHeight() - 60);
-    midiTiming.setBounds (140, 40, 20, getHeight() - 60);
-    beatOne.setBounds (215, 40, 20, getHeight() - 60);
-    beatTwo.setBounds (245, 40, 20, getHeight() - 60);
-    beatThree.setBounds (275, 40, 20, getHeight() - 60);
-    beatFour.setBounds (305, 40, 20, getHeight() - 60);
+    midiTiming.setBounds (120, 40, 20, getHeight() - 60);
+    beatOne.setBounds (175, 40, 20, getHeight() - 60);
+    beatTwo.setBounds (205, 40, 20, getHeight() - 60);
+    beatThree.setBounds (235, 40, 20, getHeight() - 60);
+    beatFour.setBounds (265, 40, 20, getHeight() - 60);
+    
+    logoComponent.setBounds(285, 40, 112, 112);
 }
 
 void MyFirstPluginAudioProcessorEditor::sliderValueChanged (juce::Slider* slider)

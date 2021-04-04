@@ -181,6 +181,7 @@ void MyFirstPluginAudioProcessor::processBlock (juce::AudioSampleBuffer& buffer,
 {
     buffer.clear();
     
+    
     juce::MidiBuffer processedMidi;
     int time,time2,newTime;
     int randomVelocity, randomTiming;
@@ -192,6 +193,14 @@ void MyFirstPluginAudioProcessor::processBlock (juce::AudioSampleBuffer& buffer,
     beattwo=*beatTwoParameter;
     beatthree=*beatThreeParameter;
     beatfour=*beatFourParameter;
+    
+    //Transfer previous PositionInfo into storage
+    previousPositionInfo=currentPositionInfo;
+    
+    //get current beat
+    playHead = this->getPlayHead();
+    playHead->getCurrentPosition (currentPositionInfo);
+    
     
     //iterate through delayed notes from previous buffers.
     for(juce::MidiBuffer::Iterator j (backupBuffer1); j.getNextEvent(n,time2);)
@@ -210,12 +219,17 @@ void MyFirstPluginAudioProcessor::processBlock (juce::AudioSampleBuffer& buffer,
     backupBuffer1.clear();
     backupBuffer1.swapWith(backupBuffer2);
     
+    //If playhead has stopped moving, output an AllNotesOff MIDI message
+    if(currentPositionInfo.ppqPosition==previousPositionInfo.ppqPosition)
+    {
+        processedMidi.addEvent(juce::MidiMessage::allNotesOff(n.getChannel()), 0);
+    }
+    
     //iterate through current buffer
     for (juce::MidiBuffer::Iterator i (midiMessages); i.getNextEvent (m, time);)
     {
-        //get current beat
-        playHead = this->getPlayHead();
-        playHead->getCurrentPosition (currentPositionInfo);
+
+        
         
         //add to ppqPosition to account for samples within buffer
         float ppqPositionWithinBuffer=time/BPMInSamples;
@@ -356,11 +370,13 @@ void MyFirstPluginAudioProcessor::processBlock (juce::AudioSampleBuffer& buffer,
             }
         }
         
- 
-        //play MIDI note
-        //processedMidi.addEvent (m, time);
+        else
+        {
+            processedMidi.addEvent(m, time);
+        }
+        
     }
-    
+
     //exchange the contents of the two MIDI Buffers
     midiMessages.swapWith (processedMidi);
 }
