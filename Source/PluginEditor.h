@@ -1,3 +1,5 @@
+//PluginEditor.h
+
 /*
   ==============================================================================
 
@@ -14,14 +16,14 @@
 //==============================================================================
 /**
 */
-class MyFirstPluginAudioProcessorEditor :public juce::AudioProcessorEditor,
+class RTHumanizerAudioProcessorEditor :public juce::AudioProcessorEditor,
                                          private juce::Timer,
                                          private juce::Slider::Listener
                                          
 {
 public:
-    MyFirstPluginAudioProcessorEditor (MyFirstPluginAudioProcessor&);
-    ~MyFirstPluginAudioProcessorEditor();
+    RTHumanizerAudioProcessorEditor (RTHumanizerAudioProcessor&);
+    ~RTHumanizerAudioProcessorEditor();
 
     //==============================================================================
     void paint (juce::Graphics&) override;
@@ -34,7 +36,7 @@ private:
     
     // This reference is provided as a quick way for your editor to
     // access the processor object that created it.
-    MyFirstPluginAudioProcessor& audioProcessor;
+    RTHumanizerAudioProcessor& audioProcessor;
 
     juce::Slider midiVolume, midiTiming;
     juce::Slider beatOne,beatTwo,beatThree,beatFour;
@@ -48,5 +50,5 @@ private:
     juce::ScopedPointer<juce::AudioProcessorValueTreeState::SliderAttachment> beatOneAttachment,beatTwoAttachment,beatThreeAttachment,beatFourAttachment;
     
     
-    JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (MyFirstPluginAudioProcessorEditor)
+    JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (RTHumanizerAudioProcessorEditor)
 };

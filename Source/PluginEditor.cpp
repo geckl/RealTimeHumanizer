@@ -1,3 +1,5 @@
+//PluginEditor.cpp
+
 /*
   ==============================================================================
 
@@ -10,7 +12,7 @@
 #include "PluginEditor.h"
 
 //==============================================================================
-MyFirstPluginAudioProcessorEditor::MyFirstPluginAudioProcessorEditor (MyFirstPluginAudioProcessor& p)
+RTHumanizerAudioProcessorEditor::RTHumanizerAudioProcessorEditor (RTHumanizerAudioProcessor& p)
     : AudioProcessorEditor (&p), audioProcessor (p)
 {
     // Make sure that before the constructor has finished, you've set the
@@ -125,12 +127,12 @@ MyFirstPluginAudioProcessorEditor::MyFirstPluginAudioProcessorEditor (MyFirstPlu
     Sliders.add(&beatFour);
 }
 
-MyFirstPluginAudioProcessorEditor::~MyFirstPluginAudioProcessorEditor()
+RTHumanizerAudioProcessorEditor::~RTHumanizerAudioProcessorEditor()
 {
 }
 
 //==============================================================================
-void MyFirstPluginAudioProcessorEditor::paint (juce::Graphics& g)
+void RTHumanizerAudioProcessorEditor::paint (juce::Graphics& g)
 {
     // (Our component is opaque, so we must completely fill the background with a solid colour)
     g.fillAll (juce::Colours::ghostwhite);
@@ -172,7 +174,7 @@ void MyFirstPluginAudioProcessorEditor::paint (juce::Graphics& g)
 
 }
 
-void MyFirstPluginAudioProcessorEditor::resized()
+void RTHumanizerAudioProcessorEditor::resized()
 {
     // This is generally where you'll want to lay out the positions of any
     // subcomponents in your editor..
@@ -188,7 +190,7 @@ void MyFirstPluginAudioProcessorEditor::resized()
     logoComponent.setBounds(285, 40, 112, 112);
 }
 
-void MyFirstPluginAudioProcessorEditor::sliderValueChanged (juce::Slider* slider)
+void RTHumanizerAudioProcessorEditor::sliderValueChanged (juce::Slider* slider)
 {
     if (slider == &midiVolume)
     {
@@ -223,12 +225,7 @@ void MyFirstPluginAudioProcessorEditor::sliderValueChanged (juce::Slider* slider
 
 }
 
-void MyFirstPluginAudioProcessorEditor::timerCallback()
+void RTHumanizerAudioProcessorEditor::timerCallback()
 {
     void repaint();
 };
-
-/*juce::Timer::~Timer()
-{
-    
-}*/

@@ -1,3 +1,5 @@
+//PluginProcessor.h
+
 /*
   ==============================================================================
 
@@ -13,7 +15,7 @@
 //==============================================================================
 /**
 */
-class MyFirstPluginAudioProcessor  : public juce::AudioProcessor
+class RTHumanizerAudioProcessor  : public juce::AudioProcessor
 {
 public:
     
@@ -27,8 +29,8 @@ public:
      juce::MidiBuffer backupBuffer2;
     
     //==============================================================================
-    MyFirstPluginAudioProcessor();
-    ~MyFirstPluginAudioProcessor() override;
+    RTHumanizerAudioProcessor();
+    ~RTHumanizerAudioProcessor() override;
     
 
     //==============================================================================
@@ -75,7 +77,7 @@ public:
 
 private:
     //==============================================================================
-    JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (MyFirstPluginAudioProcessor)
+    JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (RTHumanizerAudioProcessor)
     
     juce::AudioPlayHead* playHead;
     juce::AudioPlayHead::CurrentPositionInfo currentPositionInfo;

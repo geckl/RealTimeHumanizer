@@ -1,3 +1,5 @@
+//PluginProcessor.cpp
+
 /*
   ==============================================================================
 
@@ -14,7 +16,7 @@
 
 
 
-MyFirstPluginAudioProcessor::MyFirstPluginAudioProcessor()
+RTHumanizerAudioProcessor::RTHumanizerAudioProcessor()
 #ifndef JucePlugin_PreferredChannelConfigurations
      : AudioProcessor (BusesProperties()
                      //#if ! JucePlugin_IsMidiEffect
@@ -70,17 +72,17 @@ MyFirstPluginAudioProcessor::MyFirstPluginAudioProcessor()
 
 
 
-MyFirstPluginAudioProcessor::~MyFirstPluginAudioProcessor()
+RTHumanizerAudioProcessor::~RTHumanizerAudioProcessor()
 {
 }
 
 //==============================================================================
-const juce::String MyFirstPluginAudioProcessor::getName() const
+const juce::String RTHumanizerAudioProcessor::getName() const
 {
     return JucePlugin_Name;
 }
 
-bool MyFirstPluginAudioProcessor::acceptsMidi() const
+bool RTHumanizerAudioProcessor::acceptsMidi() const
 {
    #if JucePlugin_WantsMidiInput
     return true;
@@ -89,7 +91,7 @@ bool MyFirstPluginAudioProcessor::acceptsMidi() const
    #endif
 }
 
-bool MyFirstPluginAudioProcessor::producesMidi() const
+bool RTHumanizerAudioProcessor::producesMidi() const
 {
    #if JucePlugin_ProducesMidiOutput
     return true;
@@ -98,7 +100,7 @@ bool MyFirstPluginAudioProcessor::producesMidi() const
    #endif
 }
 
-bool MyFirstPluginAudioProcessor::isMidiEffect() const
+bool RTHumanizerAudioProcessor::isMidiEffect() const
 {
    #if JucePlugin_IsMidiEffect
     return true;
@@ -107,37 +109,37 @@ bool MyFirstPluginAudioProcessor::isMidiEffect() const
    #endif
 }
 
-double MyFirstPluginAudioProcessor::getTailLengthSeconds() const
+double RTHumanizerAudioProcessor::getTailLengthSeconds() const
 {
     return 0.0;
 }
 
-int MyFirstPluginAudioProcessor::getNumPrograms()
+int RTHumanizerAudioProcessor::getNumPrograms()
 {
     return 1;   // NB: some hosts don't cope very well if you tell them there are 0 programs,
                 // so this should be at least 1, even if you're not really implementing programs.
 }
 
-int MyFirstPluginAudioProcessor::getCurrentProgram()
+int RTHumanizerAudioProcessor::getCurrentProgram()
 {
     return 0;
 }
 
-void MyFirstPluginAudioProcessor::setCurrentProgram (int index)
+void RTHumanizerAudioProcessor::setCurrentProgram (int index)
 {
 }
 
-const juce::String MyFirstPluginAudioProcessor::getProgramName (int index)
+const juce::String RTHumanizerAudioProcessor::getProgramName (int index)
 {
     return {};
 }
 
-void MyFirstPluginAudioProcessor::changeProgramName (int index, const juce::String& newName)
+void RTHumanizerAudioProcessor::changeProgramName (int index, const juce::String& newName)
 {
 }
 
 //==============================================================================
-void MyFirstPluginAudioProcessor::prepareToPlay (double sampleRate, int samplesPerBlock)
+void RTHumanizerAudioProcessor::prepareToPlay (double sampleRate, int samplesPerBlock)
 {
     // Use this method as the place to do any pre-playback
     // initialisation that you need..
@@ -147,14 +149,14 @@ void MyFirstPluginAudioProcessor::prepareToPlay (double sampleRate, int samplesP
 
 }
 
-void MyFirstPluginAudioProcessor::releaseResources()
+void RTHumanizerAudioProcessor::releaseResources()
 {
     // When playback stops, you can use this as an opportunity to free up any
     // spare memory, etc.
 }
 
 #ifndef JucePlugin_PreferredChannelConfigurations
-bool MyFirstPluginAudioProcessor::isBusesLayoutSupported (const BusesLayout& layouts) const
+bool RTHumanizerAudioProcessor::isBusesLayoutSupported (const BusesLayout& layouts) const
 {
   #if JucePlugin_IsMidiEffect
     juce::ignoreUnused (layouts);
@@ -177,7 +179,7 @@ bool MyFirstPluginAudioProcessor::isBusesLayoutSupported (const BusesLayout& lay
 }
 #endif
 
-void MyFirstPluginAudioProcessor::processBlock (juce::AudioSampleBuffer& buffer, juce::MidiBuffer& midiMessages)
+void RTHumanizerAudioProcessor::processBlock (juce::AudioSampleBuffer& buffer, juce::MidiBuffer& midiMessages)
 {
     buffer.clear();
     
@@ -243,10 +245,6 @@ void MyFirstPluginAudioProcessor::processBlock (juce::AudioSampleBuffer& buffer,
             
             if(currentPositionInfo.timeSigDenominator!=0)
             {
-                //DBG(currentPositionInfo.ppqPosition);
-                //DBG(samplePPQPosition);
-                //DBG(currentPositionInfo.timeSigNumerator);
-                //DBG(currentPositionInfo.timeSigDenominator);
                 
             beat=(int((samplePPQPosition-currentPositionInfo.ppqPositionOfLastBarStart)/(12.0/currentPositionInfo.timeSigDenominator))%(currentPositionInfo.timeSigNumerator/3));
         
@@ -263,7 +261,7 @@ void MyFirstPluginAudioProcessor::processBlock (juce::AudioSampleBuffer& buffer,
         
         if (m.isNoteOn())
         {
-            DBG(beat);
+            //DBG(beat);
             if(beat==0)
             {
                 z=beatone;
@@ -382,18 +380,18 @@ void MyFirstPluginAudioProcessor::processBlock (juce::AudioSampleBuffer& buffer,
 }
 
 //==============================================================================
-bool MyFirstPluginAudioProcessor::hasEditor() const
+bool RTHumanizerAudioProcessor::hasEditor() const
 {
     return true; // (change this to false if you choose to not supply an editor)
 }
 
-juce::AudioProcessorEditor* MyFirstPluginAudioProcessor::createEditor()
+juce::AudioProcessorEditor* RTHumanizerAudioProcessor::createEditor()
 {
-    return new MyFirstPluginAudioProcessorEditor (*this);
+    return new RTHumanizerAudioProcessorEditor (*this);
 }
 
 //==============================================================================
-void MyFirstPluginAudioProcessor::getStateInformation (juce::MemoryBlock& destData)
+void RTHumanizerAudioProcessor::getStateInformation (juce::MemoryBlock& destData)
 {
     // You should use this method to store your parameters in the memory block.
     // You could do that either as raw data, or use the XML or ValueTree classes
@@ -404,7 +402,7 @@ void MyFirstPluginAudioProcessor::getStateInformation (juce::MemoryBlock& destDa
             copyXmlToBinary (*xml, destData);
 }
 
-void MyFirstPluginAudioProcessor::setStateInformation (const void* data, int sizeInBytes)
+void RTHumanizerAudioProcessor::setStateInformation (const void* data, int sizeInBytes)
 {
     // You should use this method to restore your parameters from this memory block,
     // whose contents will have been created by the getStateInformation() call.
@@ -422,5 +420,5 @@ void MyFirstPluginAudioProcessor::setStateInformation (const void* data, int siz
 // This creates new instances of the plugin..
 juce::AudioProcessor* JUCE_CALLTYPE createPluginFilter()
 {
-    return new MyFirstPluginAudioProcessor();
+    return new RTHumanizerAudioProcessor();
 }
